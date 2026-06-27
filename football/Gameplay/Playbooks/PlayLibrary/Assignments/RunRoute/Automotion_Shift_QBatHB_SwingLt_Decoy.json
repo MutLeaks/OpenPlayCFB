@@ -1,0 +1,91 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "6ff6c205-7136-4f80-a03b-a93f440934a6",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "3b0b5666-54d5-4e31-9505-66e178f8caf8",
+                      "data":  {
+                                   "offsetY":  "-6",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "0",
+                                   "stance":  "QB"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9e99c12d-c97a-4e57-9893-0a91dacf1941",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-2.9-6110090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "256632d3-04e5-45b2-8c9c-b9b0eacf007b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "45",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3151b65a-98ce-4777-ae27-bdcc7c074395",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "170",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "edffb0be-bd71-4a22-8f7d-9c379b9a4dca",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0631a6fb-71aa-4f4f-bfb2-f9be42d1663d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "72d7a8d4-8f69-4aaa-b00d-52504711e3b9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_Shift_QBatHB_SwingLt_Decoy"
+}

@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_Medium",
+    "exported":  "true",
+    "guid":  "39e8b062-dcd9-457e-8729-6a2dbbfadfce",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e6e4059b-17f3-42a8-b276-32e0c0bfdf56",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "6.8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "63be77d5-539f-4c22-8a3d-09ad20072611",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_CURL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a1542aa3-d750-4390-9688-155d050be9b5",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "39dc2aac-dd53-4ef9-b5f7-98e6faf4b47b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e9bf8d86-9e6b-422b-a1df-a8cbb9752476",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for08_HookLt"
+}

@@ -1,0 +1,54 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Mid",
+    "exported":  "true",
+    "guid":  "9a5feaac-e39b-48ec-aee6-f4d35d7829f0",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "fde45db6-d7c9-4490-b078-1e1287f12190",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.85",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a8b93c80-fdbf-4964-a9f1-e2317caa3b73",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_ANYALIGNMENTTECHNIQUE_NOALIGN"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5a6754c0-2a0a-4339-95de-f85b0b951032",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_MIDDLEREAD"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "62305c4a-741f-46e9-b12b-056839a9814d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Middle_Read_No_Align_Delay"
+}

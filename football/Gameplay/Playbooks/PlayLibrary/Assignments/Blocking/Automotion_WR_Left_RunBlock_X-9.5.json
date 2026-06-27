@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "exported":  "true",
+    "guid":  "2f20c507-89d9-4f3f-b3e0-b4bdf919e818",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "1afd048b-9c70-4f84-917b-62755b295f4c",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "6-3.50750AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-9.5-3.50750AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1e6031c9-b8ac-4548-96f1-455130c75cc1",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "90"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "17cbb980-1aab-413d-b43c-c106c7331cf0",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5d17b15e-1643-4afe-a1f8-922a0697eb1d",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "262f94fe-e2e0-45c6-a6f1-ea345d9bbf71",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_Left_RunBlock_X-9.5"
+}

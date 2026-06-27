@@ -1,0 +1,82 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_In_Out",
+    "exported":  "true",
+    "guid":  "5ff1c2e1-ca8a-4da1-ad7c-8a0390548f68",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e489997d-c749-4634-86db-b7e8a48a8beb",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-4.2-2.50650AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8548f689-779a-4ef5-828c-21bcd492948a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8efbd9cd-866e-4227-98c2-8a48de3d3842",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1dcc82b0-31c5-41de-82e4-53806fa61772",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4",
+                                                           "a5e5732a-cc40-4655-8534-46b53b68c189143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "45c7e58d-26a0-4b07-85d2-e9a0f10b5083",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "89fecd69-dd61-4711-bed9-1458ebd7b864",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_X-5_Option_WR_Choice_In_or_Out_Left_Slot_Gun_SpreadFlex"
+}

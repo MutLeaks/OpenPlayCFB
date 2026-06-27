@@ -1,0 +1,112 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "exported":  "true",
+    "guid":  "1a530e6f-f292-489a-bf7a-d30b69314840",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "16df49d4-cd25-4c0d-a900-a6aeebd16d08",
+                      "data":  {
+                                   "offsetY":  "-6",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "0",
+                                   "stance":  "QB"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7e84174e-dca6-453c-97fb-93920a619501",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-2.9-60670AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "73bdfab5-aa64-446a-a55d-367fa9ca20e2",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "149",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "143"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d13b532b-96cc-4de0-9c24-89713bf21dc4",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "34baa0be-6112-436d-bd5c-48e0a4d47603",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "50",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e6d14b38-8319-4c10-98ca-779fb21b1942",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4ae42c34-1114-4529-98d6-6aaefa423329",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "eb5c575d-e158-455f-9e6a-017566d2f9b5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a789a310-b23f-49d7-a484-526b9681a79d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/Shift_HBatQB_HBonLeft_QBWrap_Block"
+}

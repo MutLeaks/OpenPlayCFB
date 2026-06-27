@@ -1,0 +1,85 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "53a6311c-be62-4dca-bf6d-f18af9067824",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "a16fb8b5-78e1-4b72-99c9-6bb8179443d7",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-3-401000AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "9.5-4.501000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "165bfcac-a5fb-43ec-bee4-7979cb79a83e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "6.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "964d2f7e-50c5-4338-bcec-e0a865055f48",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "eac72f0a-915e-4eab-891f-8c487088e9c2",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "70",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "301f68a4-7768-4f0d-a4c8-9cc7810a5411",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_STALK",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "5",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1921ff14-8211-46f2-9b24-a49db70bf0f8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_WR_MotionRt_InFront_StalkBlock_Shorter_CheatMotion"
+}

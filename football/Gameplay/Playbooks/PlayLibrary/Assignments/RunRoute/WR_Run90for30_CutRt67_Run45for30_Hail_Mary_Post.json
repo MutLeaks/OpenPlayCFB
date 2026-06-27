@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Deep",
+    "exported":  "true",
+    "guid":  "d9adc3ae-5121-4716-9304-0854d8e3cbbe",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "289d5d64-4d91-4d7e-8a25-e730db777f1a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "930a351d-9ad5-46d1-bd38-d4f5d34522d9",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b48cd296-2f9b-4f37-bb68-20073846a986",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "45",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fa766a11-faf1-4e9b-882a-1eefad659b4d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9c1aa426-4dbb-40a4-a67e-0406f3a71df2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for30_CutRt67_Run45for30_Hail_Mary_Post"
+}

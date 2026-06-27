@@ -1,0 +1,55 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "61e21980-5d1d-461a-9275-58db9786cc7f",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "1387f7eb-f6f1-4bf5-8541-fb2281057802",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0.8-6.20650AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0804b8dd-628b-4093-a8e1-be237dd39f67",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "61841792-d4d5-4f26-9118-991de05cea26",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ed150a43-f7fd-4d31-b0e7-1d5e0a842e80",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/Flexbone_AutomotionLt_LeadBlock_PA_PassBlock"
+}

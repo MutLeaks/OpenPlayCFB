@@ -1,0 +1,64 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "exported":  "true",
+    "guid":  "662ac9c1-b8c7-4443-a150-bd8a4e509aa2",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "b47d0219-dc6e-40f2-82ab-e8ccd4cf1a4e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.33",
+                                   "timeNGPM":  "0.33"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5f763f8b-fec3-4055-8e6a-e89ab5879219",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_OUTSIDE_LEFT",
+                                   "direction":  "135"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "af826f12-bdd5-4412-8669-b59678341315",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "165",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c644cee2-ab3a-49e0-9f44-90d9ca67cb79",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6c807c84-b3dc-4083-8df5-e5e385dc3cb2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/TE_Tunnel_Screen"
+}

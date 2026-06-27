@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "438d1275-3f5b-428a-a84d-f52b94a445f1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "99c0d92d-c383-46fc-859c-c75319d9661e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.15",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3256ede1-ad01-414f-a623-2a3cfd061965",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_COUNTER_PULL",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "725ddef4-3bca-46ed-a16f-123f12e7107b",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e76fe015-7622-4eb6-8bc3-59710297a5dc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/RG_Pull_H7_Deep"
+}

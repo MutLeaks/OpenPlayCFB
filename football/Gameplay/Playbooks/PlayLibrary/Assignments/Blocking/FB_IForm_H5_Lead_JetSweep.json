@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "4309d8b7-1d04-49a1-8f49-a3779e0a5182",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ddb353e1-a265-414e-b43c-b0719ff57fd9",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2ba0be70-7ffd-4d39-b10f-ec26db0f82b5",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "170"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ef8559ee-13a1-497d-8cd0-f775452b9591",
+                      "data":  {
+                                   "blockingGap":  "B_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "651d282e-6a89-44e1-8d47-8a5799912b47",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/FB_IForm_H5_Lead_JetSweep"
+}

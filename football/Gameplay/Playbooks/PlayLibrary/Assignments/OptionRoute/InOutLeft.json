@@ -1,0 +1,47 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Route",
+    "exported":  "true",
+    "guid":  "c664fdff-ebd4-4890-a91a-f3c72e2f8efa",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "eda2db14-df1c-416f-a382-8c1b1d555023",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "29afa656-59c6-4d1a-9b04-bc7bb7f63c38",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e2bbf5a3-72eb-41da-8502-8d3154df014f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "37d326c7-ddc0-4d2b-a867-2fc4b96d55d6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OptionRoute/InOutLeft"
+}

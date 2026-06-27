@@ -1,0 +1,37 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "ffe32c3f-e69a-4ba5-a909-9e759ca89d1f",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "b54a9b99-3c58-43fb-93c3-df91219d51cf",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_TRAP_PULL",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0f188f38-8d01-4517-8460-1ae6fa380901",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_COUNTER_KICKOUT"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d61f6f10-f2ec-428c-a332-eb48b3c903a2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/LG_Pull_H4_StrongCounter_Kickout"
+}

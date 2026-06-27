@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Whip_In",
+    "exported":  "true",
+    "guid":  "fea2e493-9d7f-4da1-bbf7-24573d33a642",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "18de04db-5bfa-4fca-94ce-cecf9977177c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d9bf3d38-1904-47d7-8337-5b31fcf510d2",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b3e38527-1ecb-4161-985d-8a32b19e83e3",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "143f71c0-8992-468c-9341-a0d10a15393c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c5cb1196-d445-4ba6-a5a0-1190e1181c46",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run20for05_Run160for20_TE_TrailLt_Flatter"
+}

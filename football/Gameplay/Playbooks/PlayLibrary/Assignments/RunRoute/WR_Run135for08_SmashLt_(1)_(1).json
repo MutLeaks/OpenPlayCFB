@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "exported":  "true",
+    "guid":  "d49791fb-4657-4ed3-b383-2d51b5529309",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "53707ec7-5529-43b3-8566-78b4cbdf504d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e8cd8691-c5a5-4688-89a9-2a5645581341",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "5.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8bf14d6e-5ca6-40f1-b35c-3c01e3c9b4fb",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "92f48b6e-c36f-47ae-9320-13d47c9bf922",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9d0c3d59-a5c8-45dd-a12e-22beaca4d67f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8aea89ec-d683-44a1-941e-5e91c35b095b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run135for08_SmashLt_(1)_(1)"
+}

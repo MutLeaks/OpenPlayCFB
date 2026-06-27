@@ -1,0 +1,90 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "exported":  "true",
+    "guid":  "269eab8e-8c87-4b84-86ec-bf8bfd510191",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ec4ae011-3400-44ca-932b-b9b5404f1f50",
+                      "data":  {
+                                   "offsetY":  "-3.5",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-4.7",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1f4369ad-8bbf-40ae-ac59-6895f933075a",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-9.5-3.50990AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cfa9fd94-651d-454e-b3c2-7afee79e1ae0",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "116.284027",
+                                   "distance":  "7.60955858",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "da698a45-e202-4600-a96d-f327a6d38983",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7c74c2e9-b275-4ef7-8637-a27344e61fcf",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "98",
+                                   "distance":  "29",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "179b10fc-1eb5-4a95-9133-5f0e998cb1cd",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "98e00b6c-8089-4d5c-804c-352d147701ba",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_ExitLT_WR_WheelLt"
+}

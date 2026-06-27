@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_Short",
+    "exported":  "true",
+    "guid":  "8f99e3b0-7ffb-4b7c-a4c0-2181fd4255b2",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "771fc3d5-7fc5-4983-b2bf-b2aeb412eb5a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "47c864fb-109c-4c03-8df2-04f5142db2a8",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "84248dda-0a2c-4fa8-80a2-104af706b582",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ffc1554d-f235-491b-ab60-b157c0949218",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d5ca097a-e266-446d-9394-fb515164d37e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_CutR90_Run0for15"
+}

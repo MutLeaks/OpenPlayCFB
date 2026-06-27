@@ -1,0 +1,105 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_Short",
+    "exported":  "true",
+    "guid":  "34fb1f6e-0839-4d42-bbf4-fa9182b60ee7",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "1c99db97-4b5a-4641-8fca-b9183f6edf53",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "4",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "3"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b8deab11-eb4c-4dd6-91fc-2f211914ae19",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "45"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6a78b58a-147c-46b3-8a77-fc8c8d87229e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "78",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b6516fef-80d8-473a-b0ec-8bd81c38888f",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "2"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7d88aec7-bc84-46b9-b6d9-0033a2964f19",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "92",
+                                   "distance":  "4.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8c5cf945-f60b-4cfe-b42f-a3b02e186619",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6af34842-02b4-4ba6-b878-17152eed478a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "92d0a11d-16e5-4820-a64e-71b77643a214",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "426e7c58-943c-4d93-a577-d2aba9e2b646",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_PA_H0_Run90for05_OutRt_1"
+}

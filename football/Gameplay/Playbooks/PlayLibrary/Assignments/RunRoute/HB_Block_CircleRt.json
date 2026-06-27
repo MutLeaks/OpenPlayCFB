@@ -1,0 +1,104 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_Circle",
+    "exported":  "true",
+    "guid":  "562cfac5-d058-4227-ad8c-6e01080d2fc0",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "14545c75-d224-4638-9b0e-d66973da9012",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0c25b319-a641-449b-865e-b253de07e46a",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "2.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "69fc52b6-0df4-4aff-954c-61d41dd187bf",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "15",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2a7c715c-2eef-429c-8449-caf57e118181",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cabb1dd7-aa2c-4a78-8b00-497fadef5b6b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "496355af-3378-421a-93a8-7770c915c077",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "325e49b8-854a-42c2-bcb4-bc93f0972e27",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "165",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "35165298-8621-4d83-8e49-51028e6dcef3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f79d2292-d016-4349-a28c-6315124d9146",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_Block_CircleRt"
+}

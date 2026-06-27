@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Corner_Middle",
+    "exported":  "true",
+    "guid":  "e7663211-6dbc-4ec7-833a-1da55ba945b6",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f48fa8f7-12cd-4fde-a85e-c5b5cc889153",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-15.5-2.50500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-13.5-2.505090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "de396b7e-f0e5-418f-a2c7-67a4aff6902d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "80",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6c1caf01-3c2c-4db0-bc43-396fb469c7ed",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f51c89e4-d0f0-45b5-ab1e-200266e7d3d4",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "140",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0c0a807b-9187-4f9a-9161-57a6fd73c859",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f3b64741-97fe-40ab-95f7-dd43f8566516",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_AutoMotion_X-12_Shuffle_CornerLt"
+}

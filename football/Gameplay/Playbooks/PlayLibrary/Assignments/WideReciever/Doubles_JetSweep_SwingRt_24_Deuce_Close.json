@@ -1,0 +1,78 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "a7604ce6-b514-46b3-b780-94b8aeec5f0f",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "8a4d566f-75b3-4e33-8d5b-7ebf9cdf332e",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-5",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7f2f649e-3fbf-4b89-b435-e5f1db45f55a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "252",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "253"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8794c3f2-9dce-4813-b33f-7c1987bbd269",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "6.5-50500AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c19d7921-6ad2-41df-af17-3e18222bd782",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "9",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ae130e87-19ab-45e0-92b0-ebb69623d24f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b9ed2eb6-8280-4dc4-8fd4-0e2cac329f62",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/Doubles_JetSweep_SwingRt_24_Deuce_Close"
+}

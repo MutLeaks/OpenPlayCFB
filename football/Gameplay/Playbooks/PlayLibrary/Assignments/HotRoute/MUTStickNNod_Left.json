@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_N_Up",
+    "exported":  "true",
+    "guid":  "ab35c167-ae64-4b80-812f-bca417957d4c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "abde3158-96c0-42a6-98b3-505326868a89",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f1e7a0ca-dc38-413c-a36a-4344dd3c083e",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STICKNOD",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c85b9a13-28a3-474c-889e-8f7ee33dcc01",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "120",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "28a9a198-ffaa-428c-8d3d-1803a5bb1629",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "98d88fd8-5c34-4055-9c7a-8d5c5d62e7a0",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/MUTStickNNod_Left"
+}

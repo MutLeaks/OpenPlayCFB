@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Drag",
+    "exported":  "true",
+    "guid":  "ef2ef5b9-8254-40f8-b7ec-475989d6202c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "317f8699-6705-413b-b42f-94b5508b178c",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "642f4ce8-4192-4318-b9a3-7ac59f9d435e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "113",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a9b88aa4-b13d-4384-84ac-b77f4737d895",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c54e7782-3c01-418c-9eb1-1a889c5bea2c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "22",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1b6ff4ce-cd6a-48b7-a094-c9e3992a7ec7",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1f66317b-fcc3-41b5-bf25-7660867bf8b7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_DragLt22_Delay_longer"
+}

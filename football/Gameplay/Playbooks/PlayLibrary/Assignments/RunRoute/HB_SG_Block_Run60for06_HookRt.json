@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_Hook_Rt",
+    "exported":  "true",
+    "guid":  "9e3c5ba4-894b-47c6-9151-a6e1b1ac6c12",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "6691816b-8934-4a60-b8bd-0d98338f5383",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "60",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0224fccd-1038-4854-b081-749787c62172",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c0f1cc4c-48ba-4567-ac49-a1e4b270a276",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "60",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "66ea47cf-57c3-4fae-83e9-bb3ce4fcde95",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "036cf08e-9311-476a-9b25-1f655c41cf9f",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d97b322a-2c36-4a12-af2d-46687694f9ad",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ac673231-e474-4ecb-922c-a738acff6f79",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_SG_Block_Run60for06_HookRt"
+}

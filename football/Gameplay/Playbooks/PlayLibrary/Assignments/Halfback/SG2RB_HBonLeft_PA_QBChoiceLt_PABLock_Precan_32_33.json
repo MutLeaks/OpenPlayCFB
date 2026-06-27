@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "exported":  "true",
+    "guid":  "bf579991-104b-4d9d-849c-bd41522b5ce3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4e360457-5b21-48a8-af42-af68a82e9c7b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "32",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "33"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "30dde8f0-fd1b-424c-a177-0eeec07b5a52",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ed39bc57-dabf-45ba-95cf-ed430ddf2d16",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "df57c39f-43f6-4068-9ff5-937c79203e6d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e50cefde-2551-41f8-a8e2-1e3c32c5427b",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "acc4b7ee-731b-49c0-84af-b9392af57ab2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG2RB_HBonLeft_PA_QBChoiceLt_PABLock_Precan_32_33"
+}

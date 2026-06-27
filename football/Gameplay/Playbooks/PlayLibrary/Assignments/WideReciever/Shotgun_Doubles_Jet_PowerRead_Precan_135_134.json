@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "exported":  "true",
+    "guid":  "2feef7a0-057c-40a1-9d9a-a29994434358",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "df6f63bd-468a-4ae0-882b-fd2f8cd7ad33",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "135",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "134"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cc550601-91c9-4a3b-a1e2-cd983903a552",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-7-4.6501000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9c51069f-ec53-4a73-97e9-2f1b15f71849",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4b3c2baf-1579-450a-a56f-80f45d25875b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4315d94e-c693-4eb0-9f2a-9e764e5ce0cb",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "df71dcc1-c144-40d0-aafd-5a0bd82730e6",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/Shotgun_Doubles_Jet_PowerRead_Precan_135_134"
+}

@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "exported":  "true",
+    "guid":  "91a41871-712d-4339-a3ac-0a10c7fa4d39",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "fd6a930d-a610-40af-9356-b7f37902c5c5",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "11-3.501000AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "14-3.501000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4b94d4d3-5921-41e9-b62f-1f2d7d55fec0",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9fa182c6-a21b-487f-b566-08eb3fd78cde",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9e2365dd-fea5-45a3-bcd0-4c1477a91ded",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d199498b-7f10-4dee-aa60-b3f0e6ffbb47",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_MotionLt_Run90for20_CheatMotion"
+}

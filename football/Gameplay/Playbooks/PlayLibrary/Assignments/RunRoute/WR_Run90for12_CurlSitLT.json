@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Comeback",
+    "exported":  "true",
+    "guid":  "e418e56d-6ce0-41a2-b0dc-7b990d3ae1f1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "d062f992-326f-482b-811c-45c97da7f1be",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8f51064b-dd77-4f5f-8b07-9ea041eb71de",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_COMEBACK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b8d2ef37-6341-49fb-9d10-714121a551a9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "250",
+                                   "distance":  "2.6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "40e612b0-e1b3-4325-98fd-66adb21fbb62",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "74a67d69-e559-4612-9fce-a2cc0e1709d2",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "586d7ff2-1e32-4083-96e5-16e1107e6883",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for12_CurlSitLT"
+}

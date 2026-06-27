@@ -1,0 +1,96 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Lt",
+    "exported":  "true",
+    "guid":  "62ef34e1-9ee0-4a7b-a269-4089f40c362b",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "68f8bf5d-b168-4e1a-b11f-5320de8427cd",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.7",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "571d51d3-c93b-4be1-896a-dd5052ed5d9c",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "200"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "02928c21-a5de-4c93-8837-20d407e43f04",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "200",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cf34fd6e-f77b-4c12-a5fb-bd2862b5db0a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "24e77ecc-e21a-449d-8891-1218c74e7b60",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "175",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a09ec3c8-c581-406f-a554-485cebd4301f",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c9de4a88-4885-4edd-a038-6cb114dd3539",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e680d00e-5f72-4ccf-9c9c-2ef877727d47",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_SwingLt_Delay_ScreenLt"
+}

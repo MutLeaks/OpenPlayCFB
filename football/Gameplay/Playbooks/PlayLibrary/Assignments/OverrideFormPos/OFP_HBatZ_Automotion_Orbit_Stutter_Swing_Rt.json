@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "b377432d-9f1d-4fa6-bff8-40d4f436653d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e98fd04d-e529-408e-a0b7-db064d60c22a",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-13.25",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "14c38563-95b8-4eb7-bfcf-feaf17f35345",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-4-6.618090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.75-6.614090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2-6.612590AUTOMOTIONLOCOSTYLE_STRAFEtrue",
+                                                     "5.5-6.6110090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5fc2dbc5-cbfd-4da4-91be-5094dde49d26",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "15",
+                                   "distance":  "17.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bdb320b8-ef46-4a90-b05e-088e6bcea698",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "50d184e3-4184-4bf3-ad93-c5a8d56cce66",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5b011c3f-6d78-4e05-8ae3-8506ca7b0e92",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/OFP_HBatZ_Automotion_Orbit_Stutter_Swing_Rt"
+}

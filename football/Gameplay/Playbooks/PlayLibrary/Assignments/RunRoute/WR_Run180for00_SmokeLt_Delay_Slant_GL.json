@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "exported":  "true",
+    "guid":  "0299453c-25c6-487f-b0ef-734db3fca92b",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "27255dc1-d56b-4325-9045-a4268c1ab12a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b9efbaf7-bd18-49ee-a732-da035da183ac",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ac01985a-5dc8-4ef8-9f9b-4c02cfa11999",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "140",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f68ac73d-1cbd-4158-b290-9b2c7f70b10e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "025635f8-58e6-4319-9745-7d2fb314ca94",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run180for00_SmokeLt_Delay_Slant_GL"
+}

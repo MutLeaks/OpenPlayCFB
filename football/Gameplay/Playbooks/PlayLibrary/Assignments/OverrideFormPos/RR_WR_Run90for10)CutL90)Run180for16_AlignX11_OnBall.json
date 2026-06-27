@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_In_Middle",
+    "exported":  "true",
+    "guid":  "7eab17bd-a695-47d0-9b54-dae6f1b9a8f3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "739e0462-8624-4b98-8311-ff919abd8b0e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f0da4c73-9e59-4236-8dd4-d322915b7d48",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0f406400-5b70-4c78-95f3-c9ada7194f13",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6ebd32d9-d1bd-45ee-a928-f37d7c6c0c56",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6205857d-1a34-4a79-8b64-0ba29b2fb78f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/RR_WR_Run90for10)CutL90)Run180for16_AlignX11_OnBall"
+}

@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_Medium",
+    "exported":  "true",
+    "guid":  "4aff886e-b03c-4ded-9874-58f1f9f18253",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "93202bab-11db-4822-9b99-dbfaf6e06a09",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "50",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2b15bfce-e557-48fa-96e3-48b8819a5849",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "70",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "85",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ca37b8c-6358-4678-ac16-7d5c7c9bf10b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STUTTER",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f49aa7fd-fc17-4230-aef0-4efba95639f9",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH_QUICK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f83dbc9f-be20-47eb-a43d-3a4170d3e6c2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fc863b91-e190-4b39-a4e9-35d8801e6274",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0c052626-91d1-4939-8e95-39ef09477a8c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run60for05_StutterHitchLt_Colts_InsideHook"
+}

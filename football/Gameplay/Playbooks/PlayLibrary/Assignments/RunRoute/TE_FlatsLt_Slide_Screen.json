@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Lt",
+    "exported":  "true",
+    "guid":  "f24435e4-fefc-4c02-9e4e-3e88d8b9e1c0",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "a91494e6-31e3-4d6d-80be-e8983d9b7fa0",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "215",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "49169c95-b6f0-43ce-86d7-d1f0ebbeb56f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "9",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ed76fa0f-7c86-439a-8843-3f342da2942c",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "51b5540c-9a52-40ab-a165-ae68e7a3e278",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f214d72d-d447-40d3-9780-28e13a1974f1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/TE_FlatsLt_Slide_Screen"
+}

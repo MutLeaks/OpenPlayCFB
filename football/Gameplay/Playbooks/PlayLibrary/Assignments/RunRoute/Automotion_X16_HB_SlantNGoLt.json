@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_N_Go",
+    "exported":  "true",
+    "guid":  "08bbd591-747c-470f-92b4-3ee7491f31ef",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "194a06f9-c5a3-42ad-96c4-cce4bd20598e",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "14.5-2.20700AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "16-2.203090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9a61b942-3979-4934-852a-7b4ea74093ba",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cafa11de-7874-49d3-a62a-f27179b9e77d",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SLANT_AND_GO",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e4cc99db-4dbb-45d4-8907-26516c02867a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "80",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9c4e3d7f-83a1-4d5e-83e9-d14b69e11be5",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "27913deb-dbc6-4dbb-8698-f33451b9172e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_X16_HB_SlantNGoLt"
+}

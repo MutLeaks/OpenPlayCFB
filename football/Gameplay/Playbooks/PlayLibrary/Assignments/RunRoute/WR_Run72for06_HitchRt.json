@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Hitch",
+    "exported":  "true",
+    "guid":  "d6771c08-fb4e-4dae-bd8e-4c1141f2793d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "84dc2fd4-813d-4fb9-8334-9d133d0d2414",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "72",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5dd71a34-2373-4fdf-9037-5882a316800e",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "efcaabb6-5b53-4543-9711-46d485a3f52f",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "75cc96c2-c4cd-4048-a716-20d9bdfe8e41",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ba17ff25-63fd-4374-bb6d-6b21bd8e8d61",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run72for06_HitchRt"
+}

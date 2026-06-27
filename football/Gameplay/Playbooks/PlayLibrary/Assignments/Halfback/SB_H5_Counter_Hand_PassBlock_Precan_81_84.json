@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "exported":  "true",
+    "guid":  "941b19f3-1c4f-42a2-8a4b-1a12e9bcfc93",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "8b130d35-5018-4bb4-81d6-96f33b3f20e1",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "81",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "84"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "382a8d26-248c-49ec-a949-b3411fa05069",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_COUNTERSTEP",
+                                   "direction":  "170"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "63a7abf7-793d-457f-aed3-5fe61049c9fc",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "130",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "476483b9-250d-4bcd-88a4-0623f66838e8",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8a75f662-4152-4469-84d4-4873aa5431c4",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SB_H5_Counter_Hand_PassBlock_Precan_81_84"
+}

@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Angle",
+    "exported":  "true",
+    "guid":  "8cfa14d7-a00b-4992-85bc-6ef75bd058e0",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c9f6931c-7b51-4f81-b461-9ec97fb09336",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e9d36e90-5e5b-47ea-ac75-7daa6d67c79e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "83d9376d-f406-4876-bf8b-04e9b34bb9d6",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d1fb01cb-5de0-4949-9a53-c875ab2cdc8d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "176",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "aecf2d35-8dbc-4907-86c3-ba0e2349280b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "05d2f29f-39a3-44b5-b7a6-366de0f8fbdf",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/WR_ReversePivot_Align_X9_OffBall"
+}

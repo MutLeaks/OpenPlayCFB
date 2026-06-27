@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Deep",
+    "exported":  "true",
+    "guid":  "1af5b4e8-31da-4c3b-bc18-62e42c8b1d1f",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4ec7ea7a-0be6-4659-9a76-0612a17b2983",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "316d30ed-01ac-4d75-83fe-2d7ef5ac5273",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_POSTCORNER",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "915ce81b-aabe-4fe6-a662-8c679c7022ca",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "65",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9b9cc1bc-6a7c-459b-8acb-cb0445dd8ff3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d27fbf2e-a962-4753-8f9b-d3165674f04d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_GlancenGo_Rt"
+}

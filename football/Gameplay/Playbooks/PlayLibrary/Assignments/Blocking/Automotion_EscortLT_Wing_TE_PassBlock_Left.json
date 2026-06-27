@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Pass",
+    "exported":  "true",
+    "guid":  "51cdd3d6-00d8-4c27-aec5-98f460aed15c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c8a893ee-7d43-4eaf-9610-46ea46072bf1",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "3.75-2.70750AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9a0bc6f1-acd2-4892-8b03-a7a183e644e8",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1775c4a3-1441-4b77-9839-2bf93a1c2323",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "69c41ad4-a23f-4acd-af6b-15ae166f391a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_EscortLT_Wing_TE_PassBlock_Left"
+}

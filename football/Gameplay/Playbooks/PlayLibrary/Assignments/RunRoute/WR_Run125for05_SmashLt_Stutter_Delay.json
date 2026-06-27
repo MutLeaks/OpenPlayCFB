@@ -1,0 +1,69 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "exported":  "true",
+    "guid":  "ab5a0461-1836-4f42-a7d1-ea61e878a67a",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ace35d71-ca9b-4f2f-be4b-57438e073ca4",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.38",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7e8e4f65-53c7-4c99-9555-cbbabc9e6052",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "125",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "50c7ca2c-ca01-4c16-a687-118515d6dd62",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_180_PARTIAL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "491c0c3d-f90b-40b1-ae4e-4d9c14d2ee12",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c458231d-3d36-4510-8709-fc61bcc83f68",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0e621987-1526-40f2-a673-938a7bcaaa46",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run125for05_SmashLt_Stutter_Delay"
+}

@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Slam",
+    "exported":  "true",
+    "guid":  "d696030e-833a-40f8-a1d9-a633d53ec09d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "5f0f9558-eeee-4b0b-a9d7-5e8efc3b3e32",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "41",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "43"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c290bb9b-446b-4323-bcec-ff989b45e05c",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HOPSTEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7a047c7b-ba7c-4201-bcde-c77bfcc6ad27",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "81",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "571e7a56-1b83-4151-98ba-4fd975af70fd",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "360b2798-120b-49b5-aa79-9cd3078ae461",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SB_H2_Hopstep_Hand"
+}

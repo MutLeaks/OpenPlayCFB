@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Lt",
+    "exported":  "true",
+    "guid":  "a24b3512-7cf3-420f-acb3-317d7b6055f7",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "6da31747-a2c0-426c-959b-a6e5c1b2899b",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_WR_SLOTALIGNMENTTECHNIQUE_SPLIT",
+                                                              "0RECEIVER_SUBPOSITION_WRALIGNMENTTECHNIQUE_INSIDE_1",
+                                                              "0RECEIVER_SUBPOSITION_TRIPS_MIDDLEALIGNMENTTECHNIQUE_SPLIT"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2ef5fa92-15d9-4d2d-9dcb-30e03f25fd6e",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "true",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_UNDERNEATHZONE_LAST"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "060273c1-a62b-46f2-81fa-55b188b1ec26",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "true",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_MIDDLEREAD"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "56d84200-b53c-4370-a1ad-6431e1d36f84",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Curl_Right_Roll"
+}

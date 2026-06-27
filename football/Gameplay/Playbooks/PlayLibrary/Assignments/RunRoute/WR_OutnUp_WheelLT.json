@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_N_Up",
+    "exported":  "true",
+    "guid":  "fa5f0fe1-419c-4d3a-8f49-e38f5da26b6c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f7231bb9-cae9-4a6a-9b83-78acd5d4b87d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3147b9af-1a19-45c2-97e5-9c976b77bfbe",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_OUT_AND_UP",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ccf31cc7-fee6-48be-8bfa-324788f7f13f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "108.434944",
+                                   "distance":  "21",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "81a6ce29-bc53-4438-be85-13f88725d7fe",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ab0bfbce-31ed-4d3e-ad39-3c95abc748ba",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_OutnUp_WheelLT"
+}

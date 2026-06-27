@@ -1,0 +1,108 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "exported":  "true",
+    "guid":  "9bee7a94-f72b-43f7-a7fc-87eedf508dd7",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4d333935-bb3c-4c2d-972f-17bec450753c",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "43",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "41"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "00daae92-d54f-48ba-9ed2-71f9d093ca51",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "120"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cada8b5a-1652-4e4a-a387-6d4517efe397",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "120",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0745552e-fb50-4258-9146-7a173a5153b4",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "160",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "20da51c2-fff3-43fe-9a9f-efe2ee98b19a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "145",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3712c2ed-9a83-4396-92cf-86163ed003dc",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e8678ffe-c2ae-46a4-b275-e2c85b8362ea",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "110",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8118dab6-23cc-4e5c-9c0b-e1e4fb91dd33",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ad81c0be-715d-4330-bbf1-84f315c02c36",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_SB_H3_Backstep_Hand_WheelRoute_Left"
+}

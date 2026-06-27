@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "exported":  "true",
+    "guid":  "a2511d0d-599c-4219-be74-8a1fc6fd9c14",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "10d39ffb-34a3-40c3-9d4b-917a03a57437",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "181",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "180"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b6c256a3-ab89-4407-a4a0-aee029bf2278",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "6-2.201000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e23c071a-9ea0-499d-8400-504b40b51d49",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "03968cff-9192-4110-9b3a-b94d394283f5",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "150",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0f7a18d9-ce5d-4c62-af9a-ff924003e718",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cdf3d459-02fc-4627-9062-bc4c81960a8e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/Pistol_SlotRight_JetSweep_Touch_Pass_Fake_HB"
+}

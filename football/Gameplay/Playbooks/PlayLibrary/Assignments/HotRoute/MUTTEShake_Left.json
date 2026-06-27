@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Whip_In",
+    "exported":  "true",
+    "guid":  "6c69d999-faa8-4049-9bdf-dd8281eb20e0",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "eadf73da-ba0d-410e-8b8f-c7cc3ed43d81",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "92",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d9ce8bcc-8634-4677-832b-c2ae90b2e9e9",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SHAKE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "30488d52-fe84-41f6-8ad2-70a565ce4281",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "162",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7ed55d01-2be5-477b-b3dc-a0c0f34f2e3e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d0918fa5-f874-4593-879d-288d899334a5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/MUTTEShake_Left"
+}

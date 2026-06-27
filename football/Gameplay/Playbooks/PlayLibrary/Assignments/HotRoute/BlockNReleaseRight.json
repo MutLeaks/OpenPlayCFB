@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_Flats_Rt",
+    "exported":  "true",
+    "guid":  "00c1dddc-528d-46d9-94d4-719266166e66",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "09a052ce-2238-480c-8eae-fdd210ab5148",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8831ef25-9de0-4917-b923-b2be38ce5b40",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ca1fa230-332d-4dc5-8874-30484e26b183",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "20",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7a388b91-c976-4472-a335-e6a90a8901d1",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bfa00c53-af61-4559-a623-dc968d3af673",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/BlockNReleaseRight"
+}

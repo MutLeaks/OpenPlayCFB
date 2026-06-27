@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_Hook",
+    "exported":  "true",
+    "guid":  "f3a4359f-1125-4217-9da7-9f70e7fcb657",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "902b0071-4c9b-424b-b034-8ae453e400c8",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "65",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "27598318-aa2d-4df9-b349-69e1108c98cf",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SMASH",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1931e054-200d-4653-94ac-28314e4d5e7d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a4d338f1-1ed0-4bf7-a901-0e500253c157",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "69e223f6-1772-4424-9780-58a8218f5768",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run65for10_SmashRt_(1)"
+}

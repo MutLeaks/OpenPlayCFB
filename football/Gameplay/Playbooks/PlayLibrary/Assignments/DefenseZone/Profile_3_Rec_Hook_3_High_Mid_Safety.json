@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Rt",
+    "exported":  "true",
+    "guid":  "f255e8da-353a-4408-af8b-b92bb953e156",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "5cb51300-cb56-43f9-8f5c-05b19de557de",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_ANYALIGNMENTTECHNIQUE_NOALIGN",
+                                                              "0RECEIVER_SUBPOSITION_TRIPS_INSIDEALIGNMENTTECHNIQUE_SPLIT"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6ba53bde-d7f8-4d33-8bce-451624a9ccff",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_3RECHOOK"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c09d7c2d-5352-42e0-b181-c95554c90abf",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_3_Rec_Hook_3_High_Mid_Safety"
+}

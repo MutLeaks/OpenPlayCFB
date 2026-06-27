@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Slam",
+    "exported":  "true",
+    "guid":  "44cd5116-5986-4949-a132-b80fc8841f3c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4517441c-b606-440f-a291-f059a576cfd6",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "113",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "111"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "81b94b30-96d5-4f30-911c-9d02db3e6e54",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "40"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a0c43793-df5b-4e56-ac69-0aefc46f9632",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "40",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4ac14e51-89f2-4ef3-904b-bde12f291f22",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "84e6d7e1-22e3-48bf-8e38-61a3d7d87bef",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SB_H4_Delay_Backstep_Hand"
+}

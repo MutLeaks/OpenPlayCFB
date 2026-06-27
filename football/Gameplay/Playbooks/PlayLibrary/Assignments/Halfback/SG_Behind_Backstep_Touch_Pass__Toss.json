@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Sweep",
+    "exported":  "true",
+    "guid":  "d2970cab-efef-44ea-b054-ab755a8909e9",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f4cbb5ae-5f0e-4a01-bc33-e981c306a6a3",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "15",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "16"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ce65183f-9f0f-4a5f-b289-4149970f1b4a",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "64acc74b-f0cb-442b-84cd-d32c07146fda",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "130",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9ab976c8-002b-4449-8c95-37b43282547e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5c706ef3-674c-4295-810d-27f529b00574",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_Behind_Backstep_Touch_Pass__Toss"
+}

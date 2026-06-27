@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_Out",
+    "exported":  "true",
+    "guid":  "b95a4c97-5066-43a8-962b-0ab4758150ac",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "9b706739-861e-4777-9b33-05328f952999",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c9bf445c-3cc9-4474-b12b-14fc54947afb",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "145",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "df4c2624-e0be-4f27-99b3-780d76c4443a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "95",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c59355d4-9421-42ab-b836-22b88499ac96",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4fee8b22-ba61-48af-96bf-63e0ab7e28d3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "26cdb464-0316-413f-bca7-f2ce95122990",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Bunch_InRTOutLtHitchRt_Delay0.5"
+}

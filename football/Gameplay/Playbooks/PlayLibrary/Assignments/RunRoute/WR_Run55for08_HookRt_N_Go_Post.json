@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_n_Go",
+    "exported":  "true",
+    "guid":  "d1cd174f-1fcf-4cd6-814d-08847e5cda33",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "2dfc6c9b-d6ab-4440-8569-ac1e743780ef",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0.5"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5cad887a-288d-4d60-91ee-09aee8a3e3e2",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "65",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "12733514-55cd-4614-ac32-9d132bd79066",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_GO_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "05e72de4-793f-4e7d-b49b-8eca799ac440",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "59.55972",
+                                   "distance":  "29.3346157",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "91d4230f-1b52-4173-a0f0-4e9479f7ca6c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e87e243d-0c70-46e3-96d8-f3752cf01b3d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run55for08_HookRt_N_Go_Post"
+}

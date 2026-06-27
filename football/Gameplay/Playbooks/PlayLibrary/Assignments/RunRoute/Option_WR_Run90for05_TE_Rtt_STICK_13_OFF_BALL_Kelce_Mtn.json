@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Out",
+    "exported":  "true",
+    "guid":  "0d9fc669-a7fb-4fa6-943f-75d16fd6db60",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "29e78a31-3584-45ba-8c34-ad7ebc851074",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0-2.515590AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.5-2.50550AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "4-2.505090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fa92c940-f151-4501-a437-b1b7e2ad3efb",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c20e19e7-fc44-4dcc-b4fb-e1517f4c8db7",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe15",
+                                                           "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Cover2"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "40f178e8-878d-447d-9d4f-2dc7425e196d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "203c7e31-3d54-4c91-a3f7-0a0aa3cfab7a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for05_TE_Rtt_STICK_13_OFF_BALL_Kelce_Mtn"
+}

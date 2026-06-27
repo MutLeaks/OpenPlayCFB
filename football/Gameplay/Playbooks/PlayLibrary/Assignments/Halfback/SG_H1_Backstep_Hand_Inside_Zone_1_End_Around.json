@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Slam",
+    "exported":  "true",
+    "guid":  "f8ec74bf-3205-424a-9bd3-8d5713173faa",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "cf859d94-54f8-48a9-899f-89d5ca588aab",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "234",
+                                   "playerNum":  "HandoffPlayerSlot_O2",
+                                   "flippedHandoffAnim":  "235"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3acd6881-b863-4d99-a789-10178afd74b9",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cec252c5-75bc-4714-91ac-d72bab38272d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "150",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "58c841fb-f737-43bb-b7ec-83de45636391",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6b5b8325-f380-47f7-8094-cfb81b85b8e2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_H1_Backstep_Hand_Inside_Zone_1_End_Around"
+}

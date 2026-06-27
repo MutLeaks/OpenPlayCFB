@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Rt",
+    "exported":  "true",
+    "guid":  "6cbe86f1-150e-4df7-a47a-5b0b8ac25026",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "9c607246-c5fd-4a79-b6c7-6bcd8210a4c9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "35",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "80",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0fe3c6da-f942-4f71-aaab-ffc8ada7420d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "9",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "80",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b5e9a299-017b-40aa-959e-bd6d02771864",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_DRAG_STOP",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b3f410ef-6688-4888-8844-4be73bded197",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "258794ee-b993-4370-830c-2ea6b69daee6",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c0aa3e17-790e-422f-9099-341f6536369f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_ALL_FlatsRt2_Shotgun"
+}

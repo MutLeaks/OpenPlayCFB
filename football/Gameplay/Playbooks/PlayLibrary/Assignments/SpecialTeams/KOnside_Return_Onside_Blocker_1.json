@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Recover",
+    "exported":  "true",
+    "guid":  "5270b1c5-bae8-4e5c-a6be-18b0d5689664",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c5b6a3e8-3a5f-4d33-9403-982572210944",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.8",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7ae73cc2-97da-45a8-b4d0-c929b85a2b78",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "270",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "73f0dddd-b66c-44d7-b0df-013aa9226231",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ff1ab636-325c-4812-9f75-41ad63752ffa",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/KOnside_Return_Onside_Blocker_1"
+}

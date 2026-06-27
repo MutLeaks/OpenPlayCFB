@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Return",
+    "exported":  "true",
+    "guid":  "384ee6cf-65be-46e4-af05-08f072a83cf8",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "5cd6b19b-542b-42c1-972f-3bb6cda3fb9a",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "54b1b958-dfd9-49cc-adaa-709ec039244a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "290",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "20",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c7a73fb1-82a9-45ac-800d-3d46ba60785c",
+                      "data":  {
+                                   "opCodeEX":  "ID_GETBALL"
+                               },
+                      "type":  "GetBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "13781490-9494-4d1f-95ec-65d33335b66d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/KOnside_Vip"
+}

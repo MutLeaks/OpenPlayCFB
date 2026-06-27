@@ -1,0 +1,82 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "exported":  "true",
+    "guid":  "5330d41e-ca94-4afb-8a57-185a059a8103",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "0306c32b-1c2d-41a0-aa67-ed8c8afd2b7d",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "5-4.50550AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "13-2.50650AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "17.5-2.502890AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "645c7dbd-22b4-470f-ab63-9ea1ce2808b8",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ea2e388c-b949-494f-b7c2-85be3e6a6b3e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "88",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1df91fb3-108d-4839-9496-db577266748a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "85",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1797b924-7fe8-4148-b23b-3176a526e3f2",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c4da8375-32d4-4e40-8003-8c09f76b5635",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_HB_RightWR_Streak_Near"
+}

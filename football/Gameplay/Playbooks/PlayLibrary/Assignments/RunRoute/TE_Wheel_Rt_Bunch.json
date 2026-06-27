@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Rt",
+    "exported":  "true",
+    "guid":  "47e43870-ec97-4771-89bf-9a92aae00fc5",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ad5bf67d-7219-4e34-91fe-8b4729392aa2",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "21",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e66cef13-3b61-4e76-95e8-5fdbbe600734",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e5a7cad2-3c6e-4a34-801b-a4895ce39000",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "85",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e5cfe3d0-d95e-40d3-b927-b514bf7c4be1",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "47c842e7-0a73-428b-9109-8f9b62ae12d0",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/TE_Wheel_Rt_Bunch"
+}

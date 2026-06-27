@@ -1,0 +1,47 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "63a358db-b1e6-4617-ba16-83adf59b4504",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "bf47286b-0a34-450f-aedd-258f181d166f",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0-30500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2-30500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-3.25-305090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2c2e300d-a2f4-4471-98a3-364a6de7c8c8",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d59d7dfe-0cc6-44b4-b1a1-395534f5af6e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_Return_X-5_TE2_ACE_Deep_Backside_Cutoff_Right_"
+}

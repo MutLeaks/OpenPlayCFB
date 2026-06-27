@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Drag",
+    "exported":  "true",
+    "guid":  "82198929-34dd-4f92-888d-eaeda3abcce3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "623b3b3e-e52b-4229-acc9-eed487531da5",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "7-2.60450AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "10-2.604090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f51d8e8c-51e2-448e-a621-c3ea09f637c7",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "100",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b36eaa17-ae95-4147-b7a8-d9d30db13f50",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5baa38af-ed18-42a6-b7d1-bab41992f14b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8bf81274-882a-4a08-94e3-9709ef288992",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "81021b91-17d3-4f2c-8a72-de4c0933deeb",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_BunchRt_Outside_Drag_Lt"
+}

@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Streak",
+    "exported":  "true",
+    "guid":  "16f6681f-b3c3-4933-a7e3-2d58b13a229d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "b901c917-f8fe-406a-b89c-cab18293c6a8",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_STALK",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "5",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2f167dfe-ce1d-4220-9b46-e5fa7e997cd7",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STUTTER_STREAK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1d248193-57d7-40d0-97fe-c85081b07982",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4e539222-cadf-49b2-aaf6-70596cdf905b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bb916952-6331-401f-a176-473d197258ab",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_StalkAndGo_Run90for30_Streak"
+}

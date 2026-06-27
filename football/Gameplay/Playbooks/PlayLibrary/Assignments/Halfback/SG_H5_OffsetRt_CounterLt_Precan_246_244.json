@@ -1,0 +1,83 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Counter",
+    "exported":  "true",
+    "guid":  "3b89b825-df5f-48f8-a7f4-e30a0ddbec71",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "840b4f5c-7bb2-4fbf-99ec-50d72dde062b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "246",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "244"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4eed9802-68b8-42a6-81fa-0e14ef94788a",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.112",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "15c394b6-50a8-4a5d-a27b-d9a64d100157",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "45"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "615df762-9f2f-452c-bea7-d8bb74e32d19",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "26",
+                                   "distance":  "0.75",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d47f33d8-b5ac-45b1-912f-52f6560f89ff",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "150",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9b6cc286-9879-4a1e-8a6d-58ae3da4c16c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2e032604-5237-4a9a-bc4d-707be0345167",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_H5_OffsetRt_CounterLt_Precan_246_244"
+}

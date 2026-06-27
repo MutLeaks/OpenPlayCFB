@@ -1,0 +1,77 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "c3a17a9d-141f-468c-84b7-8ae38efdbca1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "555b9fb5-131f-454a-a58b-d0ff518c008e",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "4-30850AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "4-804590AUTOMOTIONLOCOSTYLE_STRAFEtrue",
+                                                     "1-80450AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "1",
+                                   "startDelay":  "0.3",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "automotionOrderTransitID":  "2"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0daa7c73-1091-403e-b94c-efbc9cb88aec",
+                      "data":  {
+                                   "opCodeEX":  "ID_AUTOMOTIONSNAP"
+                               },
+                      "type":  "AutoMotionSnapAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "92bb8a8e-6c08-4c18-8a13-73766ccee9e9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "5",
+                                   "distance":  "17.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b376abb2-d05d-4a9e-91b2-71173794f4db",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6b2e346c-2741-4f72-b44d-bb89f0dfc51b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ee466cc-6833-4a39-bafe-15d2f632362a",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_Boomerang_WR_X-1_Y8_SwingRt_2nd_Motion"
+}

@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Rt",
+    "exported":  "true",
+    "guid":  "b299e9ce-8bdf-416f-8693-0ddf3684d54b",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "dbc52a8e-03fb-404f-8843-cc7a5cf6d64c",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_TRIPS_INSIDEALIGNMENTTECHNIQUE_SPLIT"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "82c57218-dd12-460c-829a-181e619376c3",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_MIDDLEREAD"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fc9c70ad-e588-4620-a0bd-2302ed1979d7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Middle_Read_2"
+}

@@ -1,0 +1,83 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_Middle",
+    "exported":  "true",
+    "guid":  "e4ce7d02-f14d-4485-89ff-bf24e94b5e8e",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "14525d28-c099-40f2-8745-c617b2462707",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "9.5-2.215090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "8.75-2.213090AUTOMOTIONLOCOSTYLE_STRAFEtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "79a155e7-cfd5-43e0-a280-6021bc9bd4a8",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "86",
+                                   "distance":  "10.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "45c13d7b-c883-4df1-ad11-fac1504824ae",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "45",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1551a648-d065-4e9a-a9ad-81b9d831f5f8",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4b5b021c-8427-4bb8-82a4-35a788548c90",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "02b31edc-eed8-4eaf-a708-3cf2adcbdbd2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_ShortLT_AirRaid_SpeedOut_RT"
+}

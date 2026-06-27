@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "exported":  "true",
+    "guid":  "98266c0a-1811-4015-b6fb-3528754aa4cd",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "81e9cba9-ac7e-4aa4-ba08-2741537b0a12",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0829807d-f745-40a8-a21d-14be6452651b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_BUBBLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "305f9aa2-b713-4110-be84-421c8c379a3c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "40",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "50",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5f512cec-62b0-4c97-af3e-e43fd6cb131d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "14078cee-85de-42b5-9922-318c7c08c9ab",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Screen/WR_Bubble_Right_Trips_MiddleReceiver"
+}

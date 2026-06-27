@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "7f6728dd-01cd-4988-9724-009c1fbf9b6e",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "db46dca2-f34b-4ccd-b626-f315c867b5bf",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-2.5-2.750500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.5-4.504090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "1",
+                                   "stanceAtTarget":  "StanceType_2pt",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b4bc66c5-0469-4d82-90c4-b9f1833dda6c",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.125",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f4a789f7-f85a-4853-b45a-6fe1cff04490",
+                      "data":  {
+                                   "blockingGap":  "B_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_LEAD_THROUGH_HOLE"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "412cd031-e1fa-4118-9bf0-1c9cefdd1293",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_WingtoFBLT_BL_FB_WeakI_H3_Lead"
+}

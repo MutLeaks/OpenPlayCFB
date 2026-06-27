@@ -1,0 +1,104 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_Flats_Rt",
+    "exported":  "true",
+    "guid":  "7f78cd0f-2ba6-4b2f-aee5-ae597c936c13",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4e6f88da-b5c7-4b05-ac24-a02ac3d5ec27",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "16",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c67defd5-ce10-4c5e-801c-030cc1346a50",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "4.8-2.216590AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "1",
+                                   "stanceAtTarget":  "StanceType_2pt",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c549cf51-fb9b-4f66-b25b-de8b5b146226",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_SLAM",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2120dcd1-40aa-4f20-a067-093d4b08262a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "115",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "acce33c5-b4df-4b6c-bd68-7277b63fe836",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "0",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a8753c5b-999b-470e-a8bb-d4c500e45214",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a7179950-b26c-48c3-8ca6-9b40c0e66daf",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "306ccb3f-8f2e-4191-b8ec-438e40c86d18",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/OFP_YatZOff_Automotion_toWingLT_TE_Block_TEInside_Outside_Late_Flat"
+}

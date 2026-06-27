@@ -1,0 +1,92 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Rt",
+    "exported":  "true",
+    "guid":  "c204c79b-3a80-4b06-b9fa-60c474f23e44",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "98ad6300-5c90-4931-af1a-b431a1fcb86a",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "1.25-30550AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.9-3.4504590AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "54371cdc-3f7f-4006-aff3-8865ee698beb",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.35",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1b11f42f-d6ce-4f27-a7ce-d048a06c7558",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "45",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "58",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bac3a230-9a86-4cb7-8223-958c3c7a90cd",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "14.12",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ce5d6820-13f5-4d48-bb62-d938ac12935f",
+                      "data":  {
+                                   "opCodeEX":  "ID_HEADTURNRUNROUTE",
+                                   "direction":  "15",
+                                   "faceDirection":  "LOOKDIR_RIGHT",
+                                   "distance":  "15"
+                               },
+                      "type":  "HeadTurnRunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "64b8ebf2-20b7-408e-8480-27103822bf7f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "188fd3a6-7559-4e28-9d3c-b7ff29880fa1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/RR_WingTE_Automotion_TERight_ALL_FlatsRtLongNEW"
+}

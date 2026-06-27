@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Middle",
+    "exported":  "true",
+    "guid":  "f66131b7-89d6-4bbe-a6fa-633cd8035c0d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "6700016a-9e55-4e1d-a6c3-0bceda2b6c39",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.15",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "08a9fcfb-ebd3-4913-a2cf-f2557236397e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "288326fa-55cd-4d3a-ae24-d77e338d549b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7660fc94-e973-4e60-bb88-c4eb162dfb06",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "160",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "dc985014-31f1-4331-840a-4db010e03004",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2cdeff81-5796-4083-991f-712fb4355055",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for08_CutL45_Run150for15-Delay"
+}

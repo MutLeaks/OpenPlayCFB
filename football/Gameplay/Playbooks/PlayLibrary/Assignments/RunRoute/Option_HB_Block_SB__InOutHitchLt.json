@@ -1,0 +1,84 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "e9c6caf5-c289-400e-97f1-9f5e18aa5247",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "938c733c-5524-4eb1-95dd-4529c60608e4",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1ce45340-2c28-4341-86f7-4b0609dbfb8a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "30",
+                                   "distance":  "1.25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "041b67b4-798f-4cb3-a3eb-5fdf7587471c",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "dc621020-ebe0-4617-a2e4-630fa637ce8e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "85",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b77236f6-2524-43bf-aa1e-06167505b1c5",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "4ab30846-46b3-4490-86e7-f4067736a863OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe12",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5131"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "70d556da-1619-444c-99f2-0b8cef243e6f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "17da730a-ac48-417b-b5df-c1af42198d91",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_Block_SB__InOutHitchLt"
+}

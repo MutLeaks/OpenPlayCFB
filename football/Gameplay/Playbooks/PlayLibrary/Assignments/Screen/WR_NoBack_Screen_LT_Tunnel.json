@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "exported":  "true",
+    "guid":  "a551510d-c147-437f-877f-a5212aca5985",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "a69b07ba-e92c-4576-8e95-6ac7fbe9f620",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8c715e61-2d86-41d4-814e-89a640298d47",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "188",
+                                   "distance":  "4.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d9806121-9eb6-4c21-8594-fd3d28ec6861",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "69757eab-803a-4c5f-b7bf-353fdb03650d",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "02c345cb-9e59-4615-8232-c8e67277ca42",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Screen/WR_NoBack_Screen_LT_Tunnel"
+}

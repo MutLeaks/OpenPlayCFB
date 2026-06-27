@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Fade_Slant",
+    "exported":  "true",
+    "guid":  "242914e7-d16e-4bb3-9162-4d602f7928c3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "8cc22f02-5d85-4eb3-9f1f-b8be6d345617",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "55",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6b8e76aa-58c5-4fb0-9e37-9a17b8c1489b",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6af78c0e-cbc5-4e56-bccf-511b775fc7ba",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "460fa2e8-d103-43df-94b6-3c9abbe0ba99",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "f34111ed-f178-4511-8632-3852e44edb81OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover3"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "63c7b074-aca1-4040-a9d7-d92f2be04e4a",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d3cca6b8-5219-4679-959d-57aad50f51fa",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run45for02_Run90for10_PostCorner"
+}

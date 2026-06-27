@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Sweep",
+    "exported":  "true",
+    "guid":  "52be68b1-312d-43ee-a936-f44bc39f909d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "fab6d3ef-5259-484f-9289-48da1f5df24f",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "245",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "247"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fd1c24d2-e254-4e3c-b837-6ffbbf6c2b22",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "60"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f3dcfb4c-ecfb-49a1-89e9-4fbd18f66860",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "60",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cf983691-6b88-4303-adb5-1203f65e0589",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f1fb1414-8040-4d86-a929-a9ad09b16c1c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_H4_Delay_Backstep_Hand_HB_Counter_Block"
+}

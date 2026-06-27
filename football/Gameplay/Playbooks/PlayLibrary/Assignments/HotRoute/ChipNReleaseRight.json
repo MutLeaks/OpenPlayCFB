@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_Flats_Rt",
+    "exported":  "true",
+    "guid":  "d07b9964-5b81-42ad-b500-7f37ac8e002d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f8106dfa-e28b-4222-a62f-f1a8eb0247f0",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f2250bdd-9148-4999-8fb7-45588b8ed398",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_ForceChipBlock",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d1d11442-24ea-4825-9205-4aa49918e4f5",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "20",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4d5d4da7-b9de-43dd-8ca3-ac5208462945",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "71362e38-b20a-42e4-8419-5e5e06d2a74e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/ChipNReleaseRight"
+}

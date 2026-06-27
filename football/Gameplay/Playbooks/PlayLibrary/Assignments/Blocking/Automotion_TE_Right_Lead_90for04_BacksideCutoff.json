@@ -1,0 +1,46 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "68f77bf8-b544-4c04-b36a-dd235a45cb9f",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "cba5ed69-3150-437f-adc6-1a8d925836b1",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-1-2.90700AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "4.5-2.9505090AUTOMOTIONLOCOSTYLE_STRAFEtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "383f3447-2e46-454b-9afd-4924822d8ef6",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0ed1abb3-1392-482f-b941-3b885b1549dc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/Automotion_TE_Right_Lead_90for04_BacksideCutoff"
+}

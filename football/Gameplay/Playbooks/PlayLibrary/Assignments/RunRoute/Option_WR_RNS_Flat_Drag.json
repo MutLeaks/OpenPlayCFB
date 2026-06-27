@@ -1,0 +1,50 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Out_Short",
+    "exported":  "true",
+    "guid":  "0ca121b3-7813-4959-baf8-baf13b34517c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "15d32842-4c76-4ebb-b79a-22e399be8ef6",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "110",
+                                   "distance":  "2.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "50d130dc-af1b-48e9-b2df-809a3a46db09",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "07f4e171-ba6f-4c5f-845c-c3eb9c09eb08OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe148",
+                                                           "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "be555903-bd4c-4a32-afb9-fde52b73899f",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "76d94d58-9dfb-4602-beeb-2e12f3972b02",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_RNS_Flat_Drag"
+}

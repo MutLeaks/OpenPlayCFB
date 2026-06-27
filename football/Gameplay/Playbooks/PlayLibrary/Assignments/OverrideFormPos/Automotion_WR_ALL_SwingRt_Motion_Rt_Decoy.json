@@ -1,0 +1,93 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "c571d25e-985c-4254-83e0-5b41557c8a2a",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e0d26fe5-4a30-40e6-9a5a-9eeb053f56ab",
+                      "data":  {
+                                   "offsetY":  "-2.5",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-10.75",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0b32d571-95d0-4edb-96f3-11d7afb50458",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-6.75-60750AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-5-7.40750AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2-7.40750AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a20bba52-44b0-4547-81a0-31ed6aabddf5",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "12",
+                                   "distance":  "12",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "770ddb34-fafa-44c2-be39-c2e757e9efe9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "12",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "afb58c16-2220-47fa-861d-5212ef978a6d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cc1c95b1-7cec-4874-82fa-0ac1400b1327",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3a4cf3cc-f7f6-4d69-8b08-0e5e35197795",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/Automotion_WR_ALL_SwingRt_Motion_Rt_Decoy"
+}

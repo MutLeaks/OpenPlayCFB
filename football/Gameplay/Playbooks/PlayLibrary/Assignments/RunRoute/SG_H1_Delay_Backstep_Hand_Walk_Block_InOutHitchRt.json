@@ -1,0 +1,87 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "83a85702-6503-4220-b0e3-654f655c47b8",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "835d1d93-0914-4780-8f8f-d713c54c8b3d",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "39",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "38"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "87cf13f3-8572-4ced-ab76-6056a446bebc",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "60"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4248ddee-1f44-4607-82b7-e036c738ba83",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "120",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1fa84f40-f1ef-4ff3-8674-72d873c4916c",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ae71b00-fd04-4451-9d7a-c16bcfa16e85",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "95",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f8ef5989-68a9-4fc0-929c-19993d7687ae",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c512",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe131"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "96c4892d-09d5-4eca-8755-4f989baf1c15",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/SG_H1_Delay_Backstep_Hand_Walk_Block_InOutHitchRt"
+}

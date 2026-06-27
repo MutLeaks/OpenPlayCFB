@@ -1,0 +1,65 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Curl_Post_Seam",
+    "exported":  "true",
+    "guid":  "f0cb61e8-0c7b-4fea-b3d6-19013d45e450",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c4f148d2-bb04-48d8-8290-cdff29e185ad",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "08c1e82b-5873-4d6b-9bfd-56df3987fa12",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f9584410-3bba-41b2-9ede-6619c4bc1c88",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5f28149c-6a73-447b-93ab-1afeae4a4a66",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "4ab30846-46b3-4490-86e7-f4067736a863OptionRouteCoverage_Default",
+                                                           "f34111ed-f178-4511-8632-3852e44edb8120",
+                                                           "3603c2f9-2a21-4ce8-8008-f0c1ea43881b131"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "764e8ad5-2d71-4f1f-ae54-75a1a6c4f501",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Switch_Inside_PostCurlSeam"
+}

@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Mid",
+    "exported":  "true",
+    "guid":  "bd0d3b6c-c4de-4862-a11a-fbdba61565b4",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "69058fae-05e3-4784-a03c-f5d4cfa6419a",
+                      "data":  {
+                                   "percentage":  "100",
+                                   "opCodeEX":  "ID_SHOWBLITZ"
+                               },
+                      "type":  "ShowBlitzAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c4f6ab54-af1e-443c-acec-8fe0c81b70e8",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_ANYALIGNMENTTECHNIQUE_NOALIGN"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "280760fd-0f56-4273-8b2f-e9ecaf174268",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_VERTICALHOOK_RIGHT"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3f7d54de-5c4a-4cfe-991a-ff25ace3607f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Vertical_Hook_Right_SB100"
+}

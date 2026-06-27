@@ -1,0 +1,52 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Mid",
+    "exported":  "true",
+    "guid":  "c8378f15-020d-430d-a06e-fd1c12be8e7e",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "2dd9c612-172b-41ee-bd54-f6fa8b42603f",
+                      "data":  {
+                                   "percentage":  "0",
+                                   "opCodeEX":  "ID_SHOWBLITZ"
+                               },
+                      "type":  "ShowBlitzAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4270f91f-ef29-49fe-8f3a-8f4cd9922ed9",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_TRIPS_MIDDLEALIGNMENTTECHNIQUE_SPLIT"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "92bd15a2-2067-4604-89d1-d3a6f74a6498",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_3RECHOOK"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "acab8f03-25ec-43fa-8fcb-fa11eb22b48c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_3_Rec_Hook_6"
+}

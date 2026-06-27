@@ -1,0 +1,102 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Slam",
+    "exported":  "true",
+    "guid":  "80781fb9-7544-4c5e-8ac8-a41c4211edca",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "38ddf7e6-b7fe-481e-9748-4fb23925f2ab",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "20",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "429ed608-350e-4ab1-8651-3dfb639bed3c",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "4-6.2516890AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "3.4-6.2514090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2-6.2501000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "true",
+                                   "endDelay":  "1",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "26f75087-db59-4ac6-96fc-0e0e72092684",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "117",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "138"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2a94c8d0-5d0e-4268-91d5-3112a49ac190",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "64d91a49-1c29-4abc-89ef-fce22d4787f4",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e1df3983-d75b-4789-a69c-3a2b5faad200",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "130",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d60a39d3-20da-49f4-91a6-5962244fe430",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a434e954-4e61-43ef-8062-5e118e10a6e9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/OFP_HBatZ_ReloadLt_SG_H1_Backstep_Hand_Inside_Zone_Precan_117_138"
+}

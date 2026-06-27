@@ -1,0 +1,96 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "exported":  "true",
+    "guid":  "a1768ddd-02ac-45fd-be68-396237666b95",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "53f13c1a-43a8-42f9-94df-0b5ad52ba81b",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "63",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "64"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9c0364d6-1a36-460b-b277-b4b3cf15f2a9",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ed205612-2098-482a-967f-e82ccbb11806",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "166",
+                                   "distance":  "0.13",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "50287dce-ba71-47ba-850b-1167cf81c1a5",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "166",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "22d558f3-22f2-49af-9c93-6ebaca7e2f17",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "175",
+                                   "distance":  "13",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "39d99c3f-96b0-4231-a895-b3a2dff8e8f5",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ae9dec3-834d-4e78-a748-373ee70d0345",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1f1c4528-0a49-4cce-9280-8adeeca08f1d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_SG_H9_Delay_Backstep_Hand_PAQBCHoice_FBFlatLt"
+}

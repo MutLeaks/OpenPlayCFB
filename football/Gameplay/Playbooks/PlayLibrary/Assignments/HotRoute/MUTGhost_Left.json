@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Block_and_Release",
+    "exported":  "true",
+    "guid":  "5044fc39-0b1e-4175-b58b-2a730d329f73",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e5fb9027-366b-4079-8721-cd49355ce123",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "145",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cc6b7bc8-4309-4026-979c-42c1d1bdc738",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_CURL",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9fd5d8d5-af8d-4953-9861-031626f55e89",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9b50dce2-9d1d-453f-baa5-a7ffdb432d41",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "703badfd-3642-410b-b3d9-020722baadb8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/MUTGhost_Left"
+}

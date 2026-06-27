@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_In_Short",
+    "exported":  "true",
+    "guid":  "42a29bfb-9b26-4069-9854-c074a7f8fb56",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "67c919bc-fb17-49eb-850e-e4346a251dfe",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "25",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "44ce59ac-438c-4b37-8f83-e1b76f3cf408",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0d50d8b5-aca0-4d0b-8c8a-cc08de035850",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "155",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "35",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "176d5944-e9f7-40d7-9846-4e78b78cc09c",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4aa6a07c-a09e-4e87-b342-c170f69a95f4",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9734a832-c89f-486d-a3b4-f8f1a3339832",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/FB_Return_Mid_Screen"
+}

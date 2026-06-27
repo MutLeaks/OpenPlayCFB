@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Lt",
+    "exported":  "true",
+    "guid":  "9a046bc4-5264-4d98-988a-6c355ee92c64",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c39c24ef-0d3a-4e21-9f2e-3f02bd34f466",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-5-2.501000AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "617cdcf6-2d0c-443d-b9c0-36971ff0264f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b3fd3681-493a-486c-8075-13a0ad384118",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "15facf89-4bac-4bcb-ae59-9e61a38f3091",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_TE_Streak_CheatMotion"
+}

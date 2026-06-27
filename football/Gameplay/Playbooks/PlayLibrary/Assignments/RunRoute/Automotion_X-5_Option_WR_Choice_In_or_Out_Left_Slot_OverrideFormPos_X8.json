@@ -1,0 +1,80 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_In_Out",
+    "exported":  "true",
+    "guid":  "6f8d6a8b-4093-4d82-bc0b-e472feeca790",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ead2a36a-71de-43e2-8da2-acb5eec945d8",
+                      "data":  {
+                                   "offsetY":  "-2.8",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "8",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f79cf824-8288-4ebd-833c-23d79a6bd116",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-5-2.80850AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c5983d38-8399-4456-b4ef-f665ee3549fd",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "110",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5e4514e5-1f7c-4eeb-a72c-466dc8e1a50e",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4",
+                                                           "a5e5732a-cc40-4655-8534-46b53b68c189143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d81e41b9-093f-4e65-b581-60f8a8a212b2",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7127e103-9ce9-4f3b-9bc5-6dd48ec2e34e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_X-5_Option_WR_Choice_In_or_Out_Left_Slot_OverrideFormPos_X8"
+}

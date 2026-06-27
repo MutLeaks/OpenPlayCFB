@@ -1,0 +1,46 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "072042a2-b323-4c08-b258-5688caf9903c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "d679b6f9-0769-4038-a9bc-df9619817617",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0.5-3.50500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.9-3.504590AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bf8598a5-ccab-4ba5-8ae8-24aea84c2e9b",
+                      "data":  {
+                                   "blockingGap":  "C_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7ff5dcec-d36b-4688-9feb-361059cc40c5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/FB_Shotgun_H3_RunBlock_AutomotionLeft_Backside_Cutoff_Longer"
+}

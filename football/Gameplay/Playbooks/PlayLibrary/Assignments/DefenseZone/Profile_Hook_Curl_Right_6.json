@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Lt",
+    "exported":  "true",
+    "guid":  "3ddc2e56-2537-4bbc-b034-8bf2d038a958",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "add89eb2-1314-41cc-84d4-45946ea82955",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_TRIPS_INSIDEALIGNMENTTECHNIQUE_SPLIT",
+                                                              "0RECEIVER_SUBPOSITION_WR_SLOTALIGNMENTTECHNIQUE_SPLIT"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e4b14b73-c40e-490a-ad13-0bcbd7e300ca",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_HOOK_HOOKCURL_RIGHT"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fc3ff39d-c5e1-4f3d-93f6-c2f62669c988",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Hook_Curl_Right_6"
+}

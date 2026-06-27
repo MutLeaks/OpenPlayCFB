@@ -1,0 +1,62 @@
+﻿{
+    "routeType":  "AssignRouteType_DefMan_Coverage",
+    "exported":  "true",
+    "guid":  "30eec0ae-c539-4c65-adac-76527ecb6a6b",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "d24525e8-0bf3-4ee2-9bde-818e17be2040",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "10RECEIVER_SUBPOSITION_TRIPS_MIDDLEALIGNMENTTECHNIQUE_INSIDE_1",
+                                                              "10RECEIVER_SUBPOSITION_WR_SLOTALIGNMENTTECHNIQUE_INSIDE_1",
+                                                              "10RECEIVER_SUBPOSITION_TEALIGNMENTTECHNIQUE_OUTSIDE_2",
+                                                              "10RECEIVER_SUBPOSITION_WRALIGNMENTTECHNIQUE_NOALIGN"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6c8826a2-90cb-44df-aff5-02778b3f599a",
+                      "data":  {
+                                   "coverMan":  "MAN_DEEPEST",
+                                   "bracketType":  "BRACKETCOVERAGETYPE_NEARFARSIDEPOS",
+                                   "shading":  "SHADEFLAG_YSHADEOFF",
+                                   "bracketPlayPos":  "BRACKETPLAYPOS_RECEIVER1",
+                                   "bracketTechnique":  "BRACKETTECHNIQUETYPE_OVER_INSIDE",
+                                   "bracketSide":  "BRACKETSIDE_LEFT",
+                                   "opCodeEX":  "ID_MANCOVERAGE",
+                                   "bracketFieldSide":  "BRACKETFIELDSIDE_NEAR",
+                                   "bracketDepthPos":  "BRACKETDEPTHCHARTPOS_WR1"
+                               },
+                      "type":  "ManCoverageAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a6c370ea-fd53-4686-9e6e-6c8cde6df33a",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "true",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_DEEPZONE",
+                                   "deepZone":  "ZONENUM_DEEP2B"
+                               },
+                      "type":  "DeepZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "05e342ef-1516-4ff9-9ca7-685288b20fe7",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseMan/Bracket_Outside_Right_Fallback_Deep_Half"
+}

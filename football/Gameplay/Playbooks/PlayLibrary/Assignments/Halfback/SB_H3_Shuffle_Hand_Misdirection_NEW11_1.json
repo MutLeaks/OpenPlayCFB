@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Counter",
+    "exported":  "true",
+    "guid":  "b36400a4-6092-4c44-a01b-a9a577664415",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "3e7aaff9-ca3b-44fe-9118-e403462bec9a",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "103",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "102"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "eca4bbb7-1d7e-48dc-8fe5-cd201ebaaf8a",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3e1bcf13-5fe2-4d80-93d9-4df69ba743c9",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_BACKSTEP",
+                                   "direction":  "61"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "af968808-4357-4887-ad1f-eb0449beab10",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "115",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b9b0d873-a185-4208-a095-d32f86149706",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6d264f0a-50e7-4015-8dcf-106f64b14a15",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SB_H3_Shuffle_Hand_Misdirection_NEW11_1"
+}

@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Angle",
+    "exported":  "true",
+    "guid":  "aadfbab8-4e25-41f8-8a65-0d45197c83ef",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "71c4c85c-9b82-4bd9-ae24-5a5714f8b872",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "20",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "41cf651b-f599-4997-918a-1caecb8ec2ed",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "48287d4e-a4a6-4f44-9096-d2e55d909029",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2fa282ad-5f6d-45dd-b0be-b79f6ff6a96c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0b02b018-f61a-4798-9d5d-2f6d788b995f",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run45for10_CutL90_Run135for15_FBAngleLt"
+}

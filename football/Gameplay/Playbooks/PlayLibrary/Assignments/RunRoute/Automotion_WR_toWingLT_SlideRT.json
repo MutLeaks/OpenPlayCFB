@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "exported":  "true",
+    "guid":  "0a2e5361-fea2-4057-8787-3fb12039f064",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "733cf722-7f0e-40ef-9fe0-14b96440933e",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "7-3.40700AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-3.5-3.40700AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-5-3.415090AUTOMOTIONLOCOSTYLE_STRAFEtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0.5",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b54a2aec-d260-4ca5-a496-8aedf5982d8f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "4",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ecf36598-c777-4ed7-8cf1-89035898e4fe",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "341e31ed-2ce8-433f-9a69-0c80a1c9147b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_toWingLT_SlideRT"
+}

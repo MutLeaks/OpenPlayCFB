@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "29ee0b35-79df-4c65-84a7-af035902d308",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "9d74e1cb-aee2-43f8-bb4d-992b3fc39ec2",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "150",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4814fce4-12d7-499d-8d3b-f69e16d7be7f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "95",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5b7b60d3-d5fb-405d-bb69-20bff4cde578",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c512",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe131"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e93ff7c4-deb8-46a9-b6c6-fa6d172d8283",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "53f809f3-5b3c-4f14-9cba-de9f4f38c45c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_SG_HBWK_InOutHitchRt"
+}

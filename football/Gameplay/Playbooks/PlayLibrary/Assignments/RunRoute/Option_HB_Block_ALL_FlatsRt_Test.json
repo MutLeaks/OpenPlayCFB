@@ -1,0 +1,84 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_Out",
+    "exported":  "true",
+    "guid":  "697a99fe-e189-4e3c-81df-126f3330c5ed",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "7d147b1e-756c-4ef0-8105-a3cbadf5a582",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3d30787e-714a-4ca7-b46e-26ae9c9fab6f",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "1.5"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "92d62194-4d76-42e3-88b8-c40bc07cca97",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "40",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2459fd48-9817-42c7-a486-651039435a77",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ff0144d3-f828-4ae2-9cf7-5728d9e9b8a3",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "d6862ce3-a68c-4223-8878-79e425ba9a82OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe143",
+                                                           "00000000-0000-0000-0000-000000000000OptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "05d7527c-2ed4-46ec-bac8-2db2a012cbc1",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fcf721fb-c5ed-4006-aaad-21590c9a9423",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_Block_ALL_FlatsRt_Test"
+}

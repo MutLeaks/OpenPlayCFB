@@ -1,0 +1,82 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "exported":  "true",
+    "guid":  "81415cc8-563d-4f2b-98bb-5cc8eb6ad018",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "298faf6a-65fd-46bc-8067-6697c4d93bd9",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-7.3-417090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.9-416590AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.9-616090AUTOMOTIONLOCOSTYLE_NORMALfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c33cd210-59dc-4b09-8138-fe49fe4cbf25",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "27",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "4"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8081191b-7f83-4cbf-b380-d69e9afb1d26",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5fae87df-9834-4f8f-95db-8c2d2dcd127e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "166",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "74",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "41884a47-81ad-42f5-8942-e003a9ca1021",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "13757d7c-df04-4526-b117-3a5273636979",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/Automotion_WR_ToEvenRt_SG_H2_Delay_Backstep_Hand_QBChoice_Block"
+}

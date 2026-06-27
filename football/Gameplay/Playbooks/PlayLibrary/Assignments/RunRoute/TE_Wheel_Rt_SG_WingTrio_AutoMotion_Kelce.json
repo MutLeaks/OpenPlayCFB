@@ -1,0 +1,81 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Wheel_Rt",
+    "exported":  "true",
+    "guid":  "b3e25bb5-eabd-44b1-8637-d1dc064b0801",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c9108115-47a8-4653-b5ef-e06e73437a1c",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0-2.50500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.5-2.50500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "4-2.504090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "51ec5ab0-4fcc-4007-bae0-df66e48da5fb",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "25",
+                                   "distance":  "7",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c041f8c5-630b-46d1-b723-f3fd74e0ec93",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5206a175-c511-45c1-af0a-f2a898c09ecb",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "79",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "82cc037c-8667-44d1-8120-fa56b5916690",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0cf5f493-da69-434b-a4fd-94b73a5baf3e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/TE_Wheel_Rt_SG_WingTrio_AutoMotion_Kelce"
+}

@@ -1,0 +1,73 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "55fe250d-6d4d-4d63-956f-53348527dec9",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "b68aa37b-ddc7-407f-8e76-315d4ab2f430",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4059bfc7-7b60-4c23-b5cc-6f6beda03f55",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "454cdb1e-71a1-4249-af49-6f162a4018e7",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "82",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4c19a938-948d-4423-abad-8e63ed2c0cd3",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "e581ee8e-c3d6-405c-8ac2-f181d79eb875OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5OptionRouteCoverage_Cover4",
+                                                           "a5e5732a-cc40-4655-8534-46b53b68c189143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7a58267a-bc09-4ae2-bae2-6d40a9860269",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "96da3547-ffdb-4984-9ceb-bed3b2df4d6d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_Choice_In_or_Out_Left_Side"
+}

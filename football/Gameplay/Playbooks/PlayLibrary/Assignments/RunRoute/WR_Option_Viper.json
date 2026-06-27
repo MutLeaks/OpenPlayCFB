@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Post_Middle",
+    "exported":  "true",
+    "guid":  "ce876083-e812-4e5d-9e66-35cd1377b192",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "bf917608-7516-47e6-9226-c8ce81377d7e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "70",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cece5a3b-4cab-44cc-ac4e-1c229943a0f0",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a230b1b7-a363-44af-bde7-bfd2023fb83a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "192dbbf3-073a-4945-8b2f-6bc68cba7cf5",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "a5e5732a-cc40-4655-8534-46b53b68c189OptionRouteCoverage_Default",
+                                                           "0b44f40d-df56-43f7-8605-463773a59f16OptionRouteCoverage_Cover2"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c45b652d-6cff-453c-8489-fbc73c7dda30",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "60777035-5ecc-4d89-90fd-a62ac1cffe1c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Option_Viper"
+}

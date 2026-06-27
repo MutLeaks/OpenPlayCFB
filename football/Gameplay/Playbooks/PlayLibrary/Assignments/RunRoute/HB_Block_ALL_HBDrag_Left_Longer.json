@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_RB_Flat_Lt",
+    "exported":  "true",
+    "guid":  "883fcb33-cf2f-4f5c-bcf2-b59fa63531cb",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "5626593d-e53a-4488-bfad-019462c9c717",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "87",
+                                   "distance":  "5.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9d5c70bc-38be-4837-9ef9-5075b4cb38e3",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "748b2006-006d-42b0-9fa7-1d6935c053bd",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "179",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b972a1d2-77a4-436c-99a0-34b8cc347f00",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5dd43c12-35d2-406d-9852-c036086b93b1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/HB_Block_ALL_HBDrag_Left_Longer"
+}

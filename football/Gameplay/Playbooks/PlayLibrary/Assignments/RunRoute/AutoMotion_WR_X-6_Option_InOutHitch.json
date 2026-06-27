@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_In_Out",
+    "exported":  "true",
+    "guid":  "a3de75b8-2932-448e-9436-c073c43b77cf",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ee1f2b17-48a5-4630-a76d-5887f415d74d",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "7-3.750900AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-6-3.7519090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "10b7359a-5155-4999-ac1b-02b4413e61f9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "95",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "54ece747-aee5-4cde-9162-e5835099c15b",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "4ab30846-46b3-4490-86e7-f4067736a863OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebe12",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5131"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e29931bb-e9d3-4269-a904-f490b952c4a9",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fe532076-c292-48d1-b29e-0fd3f284b5be",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/AutoMotion_WR_X-6_Option_InOutHitch"
+}

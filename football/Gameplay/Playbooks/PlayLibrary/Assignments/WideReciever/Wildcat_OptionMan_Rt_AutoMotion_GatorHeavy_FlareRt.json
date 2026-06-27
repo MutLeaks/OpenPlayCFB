@@ -1,0 +1,91 @@
+﻿{
+    "routeType":  "AssignRouteType_WR_Reverse",
+    "exported":  "true",
+    "guid":  "99d40ea7-4731-43cd-9cc5-d793d47a89c3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "4f887b4a-7d1c-498c-b20d-ffd55d2f9447",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-13.5-30500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-6-90500AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "64d444e9-ce5b-4c7e-9e0f-9c276625a285",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "12",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b1c5c9c0-51f1-41f0-8fb4-25f5e30c3d3b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "12",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2b633823-7b16-4937-92d2-d3cc3f078250",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "24585f6a-395c-4c56-a1a2-ccd6573ca665",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f05dd562-0a4b-4558-ba6b-905f560f6a91",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "02f4320b-172a-489d-835f-a9f1c4114d3e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/Wildcat_OptionMan_Rt_AutoMotion_GatorHeavy_FlareRt"
+}

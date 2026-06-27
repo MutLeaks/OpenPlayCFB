@@ -1,0 +1,46 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "895fddfe-9e9b-46e1-b67c-ce0aacbd06f3",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "42d044f1-a0e9-4081-be37-f8d7e3785042",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0-30500AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2-305090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fb58a2f7-ac09-4856-b757-f1e17e5def88",
+                      "data":  {
+                                   "blockingGap":  "OUTSIDE_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "353fefeb-4ae7-4d14-bc9d-1f085e6e91e4",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/TE2_WingLeft_H4_Lead_Zone_Toss_Rt_Automotion"
+}

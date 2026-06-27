@@ -1,0 +1,105 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "55d516a0-47da-4ecb-aa0d-96e85a302959",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "c5800539-3483-4194-b1fb-e73cf4d6e380",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "20",
+                                   "stance":  "Receiver"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "50cf52a5-ca46-4bf5-8fc3-a6efbc5c261e",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "4-616890AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "3.4-614090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.9-612590AUTOMOTIONLOCOSTYLE_STRAFEtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "true",
+                                   "endDelay":  "1",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a7a78ba8-48c1-4742-b219-8f44817468f2",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "45",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "37899dfe-846e-4545-b0f9-0127b1d74fe9",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ef9d9a3-279c-42aa-9039-b04ce1a5c3c6",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "98",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c7d3f78c-7e6d-407e-aa12-54b27e794ff0",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "173f8226-832e-417a-8e67-255875c6cca5OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebeOptionRouteCoverage_Cover4",
+                                                           "8645442e-e275-4720-93db-ecd57b2bf680143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3bb6c55b-c50d-41b1-9d8a-45945b6e24da",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "443c9c47-7d16-4388-b1fb-3c5f5d69ac9c",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OverrideFormPos/OFP_HBatZ_Automotion_ReloadLt_SG_HBChoice"
+}

@@ -1,0 +1,79 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "b8f35575-0771-4a70-b011-c12175f7a877",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "10f90aa2-ccf5-4ced-bdb6-1a0e85b4ab84",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "2-6.80750AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "464d83f6-1bd7-4baa-b0d2-4679c89c0b2c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "45.78494",
+                                   "distance":  "10.4146566",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "60",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d9b889fb-a57e-452b-b53e-9ac503870acf",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "67082b4e-1652-41ed-acb6-5cdaea70fbf9",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "155.029617",
+                                   "distance":  "15.6572723",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6f8b0e9b-37c1-44c2-92cc-63b13b7196a4",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "dfa459a2-1b5b-49bd-acef-d9729e6ba15e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_HB_SwingRt_Angle"
+}

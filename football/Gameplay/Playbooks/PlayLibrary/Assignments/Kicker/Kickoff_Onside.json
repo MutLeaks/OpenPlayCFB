@@ -1,0 +1,44 @@
+﻿{
+    "routeType":  "AssignRouteType_K_Onside_Kick",
+    "exported":  "true",
+    "guid":  "fb2b63e7-da66-4204-8f71-e58eae1c305d",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ff3e24fc-bb00-421f-80c5-3a08bde47bb9",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "68c4b6f4-cb7b-48b0-b567-b56a50e1aa86",
+                      "data":  {
+                                   "kickType":  "KICKOFF_ONSIDE",
+                                   "opCodeEX":  "ID_KICKOFF"
+                               },
+                      "type":  "KickoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c2008d82-32c1-4f42-ac08-87f0bc792c6d",
+                      "data":  {
+                                   "opCodeEX":  "ID_GETBALL"
+                               },
+                      "type":  "GetBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1e8e08ed-5ce3-43ef-8039-065cf58c9eec",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Kicker/Kickoff_Onside"
+}

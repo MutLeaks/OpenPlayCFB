@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Rt",
+    "exported":  "true",
+    "guid":  "ec9cbe8a-27ca-4da1-9675-b04e137f0cb2",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ed362929-7152-49f2-a0be-c7deec3f2ff3",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ccd8f355-2d4e-4899-a01d-8a7a59629b6c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "8",
+                                   "distance":  "1.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "37.5",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b474ab1d-7d54-4477-a8a8-125a8854f132",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "2.75",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "42.5",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8ab30cfe-999c-4f76-8fc5-6fa28b062327",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f49a4b07-fdfc-49a5-a199-fb944d704124",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_ALL_SlotFlatsRt_A_delay_flatter_slower"
+}

@@ -1,0 +1,57 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "exported":  "true",
+    "guid":  "2562a588-2713-4c39-994f-8847baf91741",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "2404cf48-cd01-442d-a002-2aaef8b59bd2",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-4-4.50550AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.125-6.2504090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6fc2bda7-8d6e-4214-8c9c-7437cd72c882",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "aca192d6-745e-4266-a4db-7a986246f005",
+                      "data":  {
+                                   "offsetY":  "2",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-1"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "99ace3f3-6e90-4e9b-a74e-b6f70e99ea50",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Trick/WR_ShovelPassRunRight_AutoMotion_toLtHB__Offset"
+}

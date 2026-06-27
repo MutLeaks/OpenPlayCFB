@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "exported":  "true",
+    "guid":  "8b9f04a3-ae33-4d50-aa13-7bc7feba9ade",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "966ac395-1939-408a-954a-c59d84a62344",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "340",
+                                   "distance":  "0.75",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5be0c5c8-6838-45e5-9ea8-b52849228461",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "3",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "81144e1c-b5c3-4d09-96a2-1f7367309403",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6319faea-396a-4e8c-a8ef-8319fa2fc04d",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Screen/WR_SlotScreen_Lt_Welker"
+}

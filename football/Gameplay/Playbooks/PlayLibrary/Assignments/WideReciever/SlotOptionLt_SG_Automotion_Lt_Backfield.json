@@ -1,0 +1,67 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "exported":  "true",
+    "guid":  "ddfad910-7d07-4ad7-b4c7-c3287cd22e67",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "280aa7d0-99b9-4def-9bbf-af762c04d45f",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "4-40300AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2-6.2504090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "54628af3-1e78-43cc-8f29-28e48a6ea1cb",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.125",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f1d8e108-8389-4946-ad85-b5fd527dd090",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-6"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8aaf5732-c285-454a-b530-7772259796e5",
+                      "data":  {
+                                   "flags":  "PassBlockFlags_None",
+                                   "opCodeEX":  "ID_PASSBLOCK",
+                                   "time":  "0"
+                               },
+                      "type":  "PassBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d7628d37-c818-4dd0-95fb-ceb44bf4e5d1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/SlotOptionLt_SG_Automotion_Lt_Backfield"
+}

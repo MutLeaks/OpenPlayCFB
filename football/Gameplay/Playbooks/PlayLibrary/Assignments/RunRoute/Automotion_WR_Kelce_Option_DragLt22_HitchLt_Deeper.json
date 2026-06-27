@@ -1,0 +1,107 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Drag_Hitch",
+    "exported":  "true",
+    "guid":  "957a31eb-207e-44f9-81a8-1cbfcead913a",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "e279a3f6-1e4e-40b8-9145-29a417121760",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0-2.20350AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2.5-2.20350AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "4-2.203590AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "dfd721a0-8ad4-4a80-a362-d5be4eaafc06",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "200ea6cc-cce9-48a3-87c0-4fafe516d3d7",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "115",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e3919f01-ba56-49a5-920f-901e3d94dff4",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_67",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fbfc379a-ccdd-469f-b2b8-f01c1d3c056a",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3e744762-ba81-46cd-be66-ac1f8a371330",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "07f4e171-ba6f-4c5f-845c-c3eb9c09eb08OptionRouteCoverage_Default",
+                                                           "6c303a09-8ffb-452d-a063-c5e871c8702248",
+                                                           "00000000-0000-0000-0000-000000000000OptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b12213ee-475a-4fb7-a950-66b4d38b2980",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1d60e8f6-b0ed-454a-80d0-42f998b242d1",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_Kelce_Option_DragLt22_HitchLt_Deeper"
+}

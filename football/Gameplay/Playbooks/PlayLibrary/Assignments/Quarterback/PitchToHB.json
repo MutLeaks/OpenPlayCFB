@@ -1,0 +1,84 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Pitch",
+    "exported":  "true",
+    "guid":  "caee34b0-91fe-44d6-866c-ece96ad6f1b8",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "d9b241ed-7f43-452f-8670-5238762d1828",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "6",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "8"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "33ee82a3-0e3b-47e4-92c3-b368a3aa0a61",
+                      "data":  {
+                                   "opCodeEX":  "ID_PITCH",
+                                   "playerNum":  "1",
+                                   "speed":  "0",
+                                   "pitchType":  "QB_UNDERHAND_LONG"
+                               },
+                      "type":  "PitchBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8eccd72a-07d6-47c8-9ae7-e16e10fddc06",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "59d0a5c9-8681-4055-a39f-aabebda63227",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "270",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5704d97e-f3ac-4de9-b910-b7ce62567cf3",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "260",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d60733aa-6f29-4b74-96f0-fe79df50e182",
+                      "data":  {
+                                   "direction":  "90",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "31eac06b-6b51-46be-9438-e33a7ea86193",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Quarterback/PitchToHB"
+}

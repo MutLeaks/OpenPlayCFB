@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Flat_Lt",
+    "exported":  "true",
+    "guid":  "663046c6-ff4c-46c9-94ce-ab6318a3a678",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "36306a44-0114-4c9a-a8b0-31c6a0e6f8d0",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "6-3.317090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2-3.317090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "1-3.317090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-4.1-3.317090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2baf69a0-9620-420a-9f47-50d481a5c31d",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "165",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "866c1ede-4b9c-48d9-8e5b-0dcb8f197d3b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "175",
+                                   "distance":  "21",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "67",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "be5a2fd7-9883-4ba8-831c-f9eb3d6e9bc3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "82dcd97a-609f-4deb-b677-3fdd67b1252e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_Zipper_Lt_FlatsLt_Deeper"
+}

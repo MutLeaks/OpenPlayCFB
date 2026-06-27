@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Block",
+    "exported":  "true",
+    "guid":  "e2bf6be9-a1ef-47db-8954-5ffca44db28b",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "34b58320-d4fa-46be-9f50-c7ecaf84700d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4c00a36d-fb30-49a5-b92d-c3214b15521b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "65",
+                                   "distance":  "25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "33e88267-70b7-4dca-b147-fd368c43fba0",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "05e7b191-fbac-44d1-a4fc-1fcfe21ce1be",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/KRblk_60_15yds_fast"
+}

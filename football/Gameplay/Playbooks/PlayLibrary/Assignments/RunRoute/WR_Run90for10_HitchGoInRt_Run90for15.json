@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Curl_n_Go",
+    "exported":  "true",
+    "guid":  "73f62f0f-4080-494d-be46-a6471c9f1148",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "8d724607-8556-492e-b709-8d4de9e3c976",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "8.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bc989ac1-f97f-4301-a91f-ae47cc42733a",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_HITCH_GO_INSIDE",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8e5cf75f-ff7e-4d30-8008-77c74ffc9716",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "15",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c2d95691-5051-46eb-bad2-0d97ffc02ecb",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "23c164d1-d436-4102-ac5c-e9ee7a1e577e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for10_HitchGoInRt_Run90for15"
+}

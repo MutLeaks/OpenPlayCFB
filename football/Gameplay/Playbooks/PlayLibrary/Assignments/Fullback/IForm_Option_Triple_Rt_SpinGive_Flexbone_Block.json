@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Receive",
+    "exported":  "true",
+    "guid":  "d3fa3fb2-6348-4155-861e-adc0845742fc",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "eb84faa1-ce1c-434f-955b-d7e7335cfc43",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "75",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "76"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "845e9a82-2707-4ea7-8860-d44d4a12f202",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_TRIPLE_OPTION",
+                                   "direction":  "68.3"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "37792047-7303-4850-8e82-f4f61b0f42a4",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "68.3",
+                                   "distance":  "1.65",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cea60034-0079-44d2-8f1c-b95c4a9cdb8b",
+                      "data":  {
+                                   "blockingGap":  "OUTSIDE_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_OUTSIDE_LAST"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c6bdb74d-56a9-41d7-a9b5-d19b56bc50ae",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Fullback/IForm_Option_Triple_Rt_SpinGive_Flexbone_Block"
+}

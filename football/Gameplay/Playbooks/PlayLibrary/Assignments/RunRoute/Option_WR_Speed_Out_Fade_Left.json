@@ -1,0 +1,63 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Out_Fade",
+    "exported":  "true",
+    "guid":  "e7f89544-cbf0-4b1d-b8f6-22da5bdd96f7",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f464dc50-ebb5-4bda-b152-f602fc3c17db",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "2.25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3b2fba63-d5b7-4719-af21-237218ca29a3",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "135",
+                                   "distance":  "0.25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "651738d9-bd68-4aef-8ed0-cb364f69e132",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "07f4e171-ba6f-4c5f-845c-c3eb9c09eb08OptionRouteCoverage_Default",
+                                                           "0b44f40d-df56-43f7-8605-463773a59f1620",
+                                                           "00000000-0000-0000-0000-000000000000OptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6c58481a-1e0c-4825-8e97-6dabd3952201",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3fc3f6d4-3826-4d2c-b7d9-cf87629310de",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Speed_Out_Fade_Left"
+}

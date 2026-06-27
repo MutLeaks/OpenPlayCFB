@@ -1,0 +1,90 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "d1ef277a-4ad1-43d1-a864-a6683d60835a",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "8273763b-34cf-4690-879a-3df7aa1189b4",
+                      "data":  {
+                                   "offsetY":  "-2.2",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "-6.77",
+                                   "stance":  "ThreePoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "16f7398d-fa11-4e9a-a9f1-947403651852",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-4.25-314590AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "0-314590AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "5.5-316590AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "6.77-2.2766590AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0.1",
+                                   "stanceAtTarget":  "StanceType_2pt",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bc5ac5d4-d3cf-408a-b76e-a544f1afe5f4",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "0.5-3.1250750AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.9-3.505090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "5",
+                                   "startDelay":  "0.3",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0.2",
+                                   "stanceAtTarget":  "StanceType_2pt",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7f1d3e0b-b9ee-4173-a8b4-ac88446f1839",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_FB_LEADBLOCK",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "86e52670-1936-47f8-9fbc-57b0dae909e0",
+                      "data":  {
+                                   "blockingGap":  "RUN_HOLE",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "90a366be-ad4f-4e9f-b75c-9aede2aeddbb",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/OFP_ULt_Automotion_TradeRTMtnLT_Deep_Backside_Cutoff_RT"
+}

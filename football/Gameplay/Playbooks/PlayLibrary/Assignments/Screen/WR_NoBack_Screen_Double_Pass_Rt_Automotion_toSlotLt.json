@@ -1,0 +1,76 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "exported":  "true",
+    "guid":  "10d9cf61-bc93-4358-b5db-4ff27774b6cc",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "704e9264-13ac-4ce5-a483-d1ca30d4626e",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-10-50850AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-13.5-705090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a5e96ed7-6cfa-4dc9-b69a-d3e9c4ea655c",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SCREEN",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "be7826c6-5100-49d7-8743-b6c47fb40636",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "eb80cd07-5b6b-415d-9074-b69c22427e7c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "49085d19-8580-4de8-b885-48b746342028",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_NONEVALUE"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0cbd17dd-4102-4f52-9afa-f4a3d8bccc55",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Screen/WR_NoBack_Screen_Double_Pass_Rt_Automotion_toSlotLt"
+}

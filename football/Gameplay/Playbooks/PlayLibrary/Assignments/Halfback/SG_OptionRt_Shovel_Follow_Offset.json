@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "exported":  "true",
+    "guid":  "17f4f743-dd94-4681-96ce-67f6ab308e21",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "affbecc0-b6bf-44f1-bf14-6c83a4f34a60",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a6fd1207-3437-4101-8856-cc097dfdba65",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "62"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7754fafa-07c6-4352-bc0b-33b029aa060d",
+                      "data":  {
+                                   "offsetY":  "3",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-1"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f2d41b3c-8b86-4d0d-a40b-a01cdf582841",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_OptionRt_Shovel_Follow_Offset"
+}

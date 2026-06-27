@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_WR_Screen",
+    "exported":  "true",
+    "guid":  "26f2261b-7b82-47ac-a97f-5152d192dd6c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "09b4c143-699a-465a-9cf1-84cc0844fc43",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "240",
+                                   "distance":  "2.25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "76",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "39e661e2-ff7f-477d-a96a-88fd6dbb8ad2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "5",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "466f5cbd-d648-485b-b00c-dac6cf61792c",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1c70b024-fc75-4c24-a7ec-2f084453489b",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Screen/WR_Screen_Lt_OnBall_Comeback"
+}

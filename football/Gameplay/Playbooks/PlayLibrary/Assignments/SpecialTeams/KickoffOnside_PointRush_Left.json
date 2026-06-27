@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Cover",
+    "exported":  "true",
+    "guid":  "85c05362-d4c8-480b-8075-fedad01e545c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "89845fea-ac4f-493c-8217-e21edcd053e1",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4a69bf36-0eef-40f4-8346-afa81ff9cf1f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "75",
+                                   "distance":  "1",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDISTCONST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7b4e6453-6e69-49d4-a2c8-4562be8aab32",
+                      "data":  {
+                                   "opCodeEX":  "ID_GETBALL"
+                               },
+                      "type":  "GetBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e1daa328-2c23-4096-a9f5-0c8877dbfcb3",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3fa11a21-fe68-4c60-a72b-3bcef502b0a9",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/KickoffOnside_PointRush_Left"
+}

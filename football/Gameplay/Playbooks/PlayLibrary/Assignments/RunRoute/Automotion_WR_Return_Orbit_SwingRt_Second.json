@@ -1,0 +1,96 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Swing_Rt",
+    "exported":  "true",
+    "guid":  "4f10e660-214e-4755-9930-2cf81d26dfa8",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "9cb9bf2c-ab2b-4277-988e-c5e9698ba016",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "7.75-3.25175215AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.5-3.25175180AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2.5-7.214090AUTOMOTIONLOCOSTYLE_STRAFEfalse",
+                                                     "2-7.216090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "5",
+                                   "startDelay":  "0.3",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "automotionOrderTransitID":  "7"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "23e62131-91c6-41a1-9632-a7fbec749a35",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "8",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "74a8f7a0-be45-44dc-a1cd-a5e8026d7fac",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "15",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b2751121-1feb-4240-8f95-ea7b2f5f367e",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "25",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "65",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3af7fc0b-9245-4772-91f3-4d0fbc43404d",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "10",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9877722a-0ad1-4f8d-acce-64f0d24ac5f3",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f2466e1e-77c5-46d9-87b5-6396ce4686fc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_Return_Orbit_SwingRt_Second"
+}

@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Slant_N_Go",
+    "exported":  "true",
+    "guid":  "226c332b-25e8-4423-a8fd-ef859874f936",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "828a2781-5e0f-4cb4-abd1-cf838cdbde5c",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "3.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f18fe1b0-cc47-4c05-9b5b-2d5822b11ede",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_SLANT_AND_GO",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c587e641-23aa-4cfa-a491-7d8bea8df6dc",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "80",
+                                   "distance":  "30",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "dd11efad-8ada-4a1e-8fdd-52990db0e4ec",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "468757de-59ce-4c87-be11-31b790fff2f5",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/WR_Run90for03_Run160for15_SlantNGoLt"
+}

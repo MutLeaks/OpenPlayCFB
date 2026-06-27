@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_Out",
+    "exported":  "true",
+    "guid":  "6129860f-2aca-47f2-8424-76a625c79ef1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "bf533f59-4a61-4c7c-999f-3b62d3962ada",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "120",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "203e3368-d192-4797-be83-386fb1152e28",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_22",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_RIGHT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6590e158-7714-4052-846b-2dad35699af8",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "38342555-3018-440d-8680-c905809589ceOptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5143",
+                                                           "00000000-0000-0000-0000-000000000000OptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "924fd370-e4fc-491c-b9f5-a17046e034b1",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "1aa081ef-9900-498b-926e-19d1b3c2b203",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_HB_SG_FlatsLt_HookRt"
+}

@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Onside_Cover",
+    "exported":  "true",
+    "guid":  "3f3acfb6-fbd8-4f52-a34e-aaf15cf444ef",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "1f04ed67-25a1-4f03-ad53-9c87e6bf3cf2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "2.1",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0af5d46d-9d8b-44b4-99df-0cf0d23079b4",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fa14f024-0357-4af1-a742-8b288f3cb14f",
+                      "data":  {
+                                   "opCodeEX":  "ID_CHASEBALL"
+                               },
+                      "type":  "ChaseBallAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d807bc17-5fbe-467e-ace4-c96562df0fa8",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/KickoffOnside_RecBall_Weakside_180"
+}
