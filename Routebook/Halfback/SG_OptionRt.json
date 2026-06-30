@@ -1,0 +1,48 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "exported":  "true",
+    "guid":  "d74abbe2-f821-4275-82fc-1de9f4c59ebd",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "6f5ce5c4-7fbe-4968-ad24-f619166fa176",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0.125"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3efd7853-54be-4f0b-8cfd-8b52c098080e",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "0"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "42786d60-e5fb-4493-82ac-f3afc22a5fa5",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bfc7f0c6-96ff-4627-bafa-5c7c092e42ce",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/SG_OptionRt"
+}

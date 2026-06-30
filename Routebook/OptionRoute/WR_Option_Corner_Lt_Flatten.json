@@ -1,0 +1,72 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Corner_Middle",
+    "exported":  "true",
+    "guid":  "1ea2eba7-0bc8-4f8a-8c49-ee9f45da6a2c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "5ac03426-ddb2-41fe-a0a8-1fc0b4beca35",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "10",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e034e67c-7487-429d-b987-0361d5c74562",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_45",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b493a10e-b5f2-4285-8fa5-49991b1e9856",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "145",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0914b5f4-50db-4752-8f74-00e5bb76866e",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "8645442e-e275-4720-93db-ecd57b2bf680OptionRouteCoverage_Default",
+                                                           "07f4e171-ba6f-4c5f-845c-c3eb9c09eb08OptionRouteCoverage_Cover3"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "5ac8dcda-f923-49db-9814-4f2463931f0b",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7fb8e579-1e52-4502-911a-254b98650394",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OptionRoute/WR_Option_Corner_Lt_Flatten"
+}

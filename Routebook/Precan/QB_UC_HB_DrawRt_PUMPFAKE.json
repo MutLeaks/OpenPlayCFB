@@ -1,0 +1,59 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "exported":  "true",
+    "guid":  "d0efb2db-f694-42c5-8e46-05941c347c29",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "42e2f37e-62e0-4bc9-85fb-178cd241d6b0",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "31",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "32"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f29f5e69-04cc-420b-beb1-8af9185ace46",
+                      "data":  {
+                                   "speed":  "1",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_NONE",
+                                   "direction":  "180",
+                                   "BallHand":  "BALLHAND_LEFT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e7d802e9-86c0-436a-8a85-064315dd5eb0",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_FAKEPASS",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "1",
+                                   "handoffRun":  "RUNTYPE_DROPBACK"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e55c9e52-f3d6-444f-b223-5a5ee3e640cd",
+                      "data":  {
+                                   "direction":  "90",
+                                   "opCodeEX":  "ID_FACEDIR"
+                               },
+                      "type":  "FaceDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6eb17783-3efb-4a3a-a147-02aedb94e045",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_DrawRt_PUMPFAKE"
+}

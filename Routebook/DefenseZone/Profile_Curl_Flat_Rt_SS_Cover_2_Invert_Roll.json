@@ -1,0 +1,71 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Lt",
+    "exported":  "true",
+    "guid":  "0d5ac249-e644-47f9-a6d6-8ffb06b184ed",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "6c30cdd8-2cc3-412b-8e77-3f6d11a687d4",
+                      "data":  {
+                                   "offsetY":  "4",
+                                   "opCodeEX":  "ID_OVERRIDEFORMPOS",
+                                   "offsetX":  "7.5",
+                                   "stance":  "TwoPoint"
+                               },
+                      "type":  "OverrideFormPosAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "335c0b95-3cb0-4411-8f81-ba3d8bbbf275",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "4RECEIVER_SUBPOSITION_WR_SLOTALIGNMENTTECHNIQUE_HEADUP",
+                                                              "4RECEIVER_SUBPOSITION_TRIPS_INSIDEALIGNMENTTECHNIQUE_HEADUP",
+                                                              "4RECEIVER_SUBPOSITION_TEALIGNMENTTECHNIQUE_OUTSIDE_4",
+                                                              "5RECEIVER_SUBPOSITION_TE_TWIN_INSIDEALIGNMENTTECHNIQUE_OUTSIDE_2",
+                                                              "4RECEIVER_SUBPOSITION_TE_TWIN_OUTSIDEALIGNMENTTECHNIQUE_OUTSIDE_4"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "6f09bacc-9cff-4a85-988a-d7a0bba2da3b",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "true",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_UNDERNEATHZONE_LAST"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4342cb9a-b8c2-4c66-a814-eee9f3cfb2db",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "flatZone":  "ZONENUM_FLATZONE_CLOUD_RIGHT",
+                                   "IsRollCoverageFallback":  "true",
+                                   "opCodeEX":  "ID_FLATZONE"
+                               },
+                      "type":  "FlatZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fb376c20-e932-4cbd-baa2-c41fc5df0bf2",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Curl_Flat_Rt_SS_Cover_2_Invert_Roll"
+}

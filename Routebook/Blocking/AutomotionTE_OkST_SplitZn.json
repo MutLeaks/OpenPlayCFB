@@ -1,0 +1,47 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "d0a7817a-58b0-4ebb-822e-5e163fe18409",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "f2d69afd-9e65-4a6d-be58-f35ebd52b931",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "1-2.20750AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "6-2.201000AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "3-2.20400AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "b1934d23-df8f-43bf-9c60-bb3c7bcc3064",
+                      "data":  {
+                                   "blockingGap":  "D_GAP_Left",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_BACKSIDE_CUTOFF"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4362ea91-03b7-4986-87d7-9002419e9788",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Blocking/AutomotionTE_OkST_SplitZn"
+}

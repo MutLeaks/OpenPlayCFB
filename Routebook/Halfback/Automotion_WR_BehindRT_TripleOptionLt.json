@@ -1,0 +1,56 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "exported":  "true",
+    "guid":  "31fb92a8-f87b-45d0-8357-4a5113e4bd76",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "fb333835-8744-4dd7-a9f2-c2e0cfbb506d",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "2-6.250800AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "16101e59-3a18-4d32-be2a-33bc8d8421d4",
+                      "data":  {
+                                   "optionalInitalDirection":  "-1",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_HB_LATERAL_STEP",
+                                   "direction":  "180"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "9b8c90d4-1574-4fd8-8183-79eae54e6af0",
+                      "data":  {
+                                   "offsetY":  "-5",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-5"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "65f2840b-292a-4c6d-9ca6-d9d52ee38c83",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/Automotion_WR_BehindRT_TripleOptionLt"
+}

@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_QB_Handoff",
+    "exported":  "true",
+    "guid":  "3a35ab52-c108-4aaf-a81a-89d2536eee3c",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "832a11a4-c252-492a-9bca-156164c10ea2",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "85",
+                                   "playerNum":  "HandoffPlayerSlot_SNAP_RECEIVER",
+                                   "flippedHandoffAnim":  "82"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "20f7a5e8-5286-4921-b0e5-4261d533a456",
+                      "data":  {
+                                   "speed":  "1.15",
+                                   "opCodeEX":  "ID_HANDOFF_TURN",
+                                   "TurnDirection":  "TURN_LEFT",
+                                   "direction":  "200",
+                                   "BallHand":  "BALLHAND_LEFT"
+                               },
+                      "type":  "HandOffTurnAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "79bf6ceb-559e-421c-9ca6-4f6a1f5b1bf1",
+                      "data":  {
+                                   "handoffExit":  "EXITTYPE_DROPBACK",
+                                   "opCodeEX":  "ID_HANDOFF_GIVE",
+                                   "playerNum":  "1",
+                                   "handoffRun":  "RUNTYPE_HANDOUT"
+                               },
+                      "type":  "HandOffGiveAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "689c2e8e-8b52-4ff3-94c1-a8598ae212aa",
+                      "data":  {
+                                   "opCodeEX":  "ID_SCRAMBLE",
+                                   "direction":  "0",
+                                   "distance":  "0",
+                                   "dropBackType":  "DROP_TYPEENUM_NONEVALUE"
+                               },
+                      "type":  "QBScrambleAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8460c8ce-b36e-4bea-a943-84b91cfea510",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Precan/QB_UC_HB_CounterRt_Dropback_RPO"
+}

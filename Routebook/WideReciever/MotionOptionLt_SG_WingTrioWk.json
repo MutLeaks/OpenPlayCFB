@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Option_Follow",
+    "exported":  "true",
+    "guid":  "03854214-6e57-49cc-a6d7-e2d726535170",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "238cb94a-f769-471c-9e57-1070efc6e83c",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "6-3.750600AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "5-4.2516090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "2-6.2504090AUTOMOTIONLOCOSTYLE_STRAFEfalse"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "94d0e2e9-5400-4388-93ad-5a9095028a07",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.25",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "34e361a3-1da9-4b84-ada2-a2987ed2eb34",
+                      "data":  {
+                                   "offsetY":  "-3",
+                                   "opCodeEX":  "ID_OPTIONFOLLOW",
+                                   "offsetX":  "-6"
+                               },
+                      "type":  "OptionFollowAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "88ffc07f-ae0b-4aa4-863a-4ffa05e80190",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/MotionOptionLt_SG_WingTrioWk"
+}

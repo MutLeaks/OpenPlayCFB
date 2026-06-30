@@ -1,0 +1,43 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Rt",
+    "exported":  "true",
+    "guid":  "2dfcf16c-6049-4b5b-8f16-b9cc3a8f0396",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "88f7b436-8c78-4f9a-b038-85563371f3c6",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_ANYALIGNMENTTECHNIQUE_NOALIGN"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "259ea59f-b819-4044-b4aa-929480d90505",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "curlFlatZone":  "ZONENUM_CURLTOFLAT_SEAMFLAT_LEFT",
+                                   "IsRollCoverageFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "opCodeEX":  "ID_CURLFLATZONE"
+                               },
+                      "type":  "CurlFlatZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cf992b9a-00ac-455d-9c73-22a23d159ad3",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Seam_Flat_Left_FS_Creep"
+}

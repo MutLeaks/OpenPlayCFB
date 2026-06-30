@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Lt",
+    "exported":  "true",
+    "guid":  "7dbeb6d3-f72f-4d03-a576-052ef16d75c1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "acd9e96b-5d15-452b-8c4e-70b588438fd1",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_TEALIGNMENTTECHNIQUE_OUTSIDE_2",
+                                                              "0RECEIVER_SUBPOSITION_TE_TWIN_INSIDEALIGNMENTTECHNIQUE_OUTSIDE_2"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "fb253259-1297-4cb7-b0b0-df441cf7d76b",
+                      "data":  {
+                                   "percentage":  "1",
+                                   "opCodeEX":  "ID_SHOWBLITZ"
+                               },
+                      "type":  "ShowBlitzAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0c16ae2c-1cb8-47b3-a96d-761861493120",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "curlFlatZone":  "ZONENUM_CURLTOFLAT_SEAMFLAT_RIGHT",
+                                   "IsRollCoverageFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "opCodeEX":  "ID_CURLFLATZONE"
+                               },
+                      "type":  "CurlFlatZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7f28ac03-92dd-42d5-998e-ef610363943e",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Seam_Flat_Right_Dime_CB4"
+}

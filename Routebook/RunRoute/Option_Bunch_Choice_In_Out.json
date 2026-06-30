@@ -1,0 +1,74 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_HB_Choice_In_Out",
+    "exported":  "true",
+    "guid":  "9bb8d5ed-0cb6-40a0-b382-0c68a60f0c98",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "b5d9aab1-d896-42c7-8950-928f51937a5c",
+                      "data":  {
+                                   "optionalInitalDirection":  "180",
+                                   "opCodeEX":  "ID_INITIALMOVE",
+                                   "anim":  "MOVETYPE_WRSTART",
+                                   "direction":  "17"
+                               },
+                      "type":  "InitialAnimAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "36519f43-2c46-43a7-8af8-ec119495bdfa",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "17",
+                                   "distance":  "0.75",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "be8b53f4-300e-4ad7-aca6-8090bac85430",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "5.25",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "72455e92-e78c-40b5-8987-654a81458f17",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "173f8226-832e-417a-8e67-255875c6cca5OptionRouteCoverage_Default",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebeOptionRouteCoverage_Cover4",
+                                                           "8645442e-e275-4720-93db-ecd57b2bf680143"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "da7c5c00-fdba-4133-9f55-b1d0c67ee883",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "18400e70-9e52-49dc-8a2a-793670b76924",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_Bunch_Choice_In_Out"
+}

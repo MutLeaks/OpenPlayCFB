@@ -1,0 +1,65 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Option_Hitch_Out",
+    "exported":  "true",
+    "guid":  "e640f972-9d63-4fab-95ff-7a256cad7ca8",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "bd9c86c6-ad9c-4d8b-81da-935a2fe6b815",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "90",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "3d8c1ccb-39c3-4481-96b7-db9da1c69a88",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_90",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "751136cf-80fc-4e8b-b664-fbe8f50de788",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "906b15a4-121b-491f-a98e-3f890f963b48",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "6c303a09-8ffb-452d-a063-c5e871c87022OptionRouteCoverage_Default",
+                                                           "07f4e171-ba6f-4c5f-845c-c3eb9c09eb0815",
+                                                           "00000000-0000-0000-0000-000000000000OptionRouteCoverage_Default"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "577441de-c12e-4276-9d31-6205c4bba9fe",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Option_WR_Run90for05_HitchRtOutLt_Shock"
+}

@@ -1,0 +1,40 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Deep_Rt_3rd",
+    "exported":  "true",
+    "guid":  "f35713b0-d739-409f-b29f-bf85aa5f7558",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "bc230f61-9167-49b3-a27c-b622859fac6e",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "4",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f768ad35-621b-4664-b5f3-b003da583495",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_DEEPZONE",
+                                   "deepZone":  "ZONENUM_DEEP3C"
+                               },
+                      "type":  "DeepZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7bf6f4c0-0124-4653-b7fe-079a7a71e1e3",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/MiniGame/Delay_4_Zone"
+}

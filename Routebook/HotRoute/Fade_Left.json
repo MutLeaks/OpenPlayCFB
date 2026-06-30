@@ -1,0 +1,60 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Fade",
+    "exported":  "true",
+    "guid":  "920e7733-e336-48bb-add0-19ea3d735db6",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "cf9e250c-1a0c-4d5f-aec3-d917b11afcb3",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "95",
+                                   "distance":  "0.5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "68906062-6f8e-41cc-ad8f-a0657bfc9636",
+                      "data":  {
+                                   "cutType":  "RECEIVER_CUT_ANGLE_STUTTER_STREAK",
+                                   "opCodeEX":  "ID_RECCUT",
+                                   "direction":  "RECEIVER_CUT_DIR_LEFT"
+                               },
+                      "type":  "ReceiverCutAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7e2ffa80-0655-4b03-90ac-0721e42f9e2f",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "121",
+                                   "distance":  "8",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "4f665ce7-9050-4364-98d0-4db2254fba99",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bea9302c-89ef-488f-907d-0f36e0c07fce",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/HotRoute/Fade_Left"
+}

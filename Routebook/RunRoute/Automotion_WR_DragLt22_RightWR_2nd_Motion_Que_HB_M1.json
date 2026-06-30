@@ -1,0 +1,70 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Drag",
+    "exported":  "true",
+    "guid":  "dc47a1a4-8936-4fb0-b496-f31bf7869c24",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "43837f0b-7b80-4b6e-aaef-55e487fbf470",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "12-2.206090AUTOMOTIONLOCOSTYLE_NORMALfalse",
+                                                     "10-2.2040180AUTOMOTIONLOCOSTYLE_STRAFEtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "false",
+                                   "automotionOrderPlayer":  "1",
+                                   "startDelay":  "1",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_None",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_QUEUED",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "32d99c1f-9188-484a-9eba-615c86c2e1ba",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "126",
+                                   "distance":  "5",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f050608a-0321-42b6-9549-b740ad24dbf0",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "180",
+                                   "distance":  "20",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "08e6e422-fbaf-427b-83dc-8c3afc2d63ac",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ee4fcde1-17ff-44ea-a6ff-669e21b95bf4",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/RunRoute/Automotion_WR_DragLt22_RightWR_2nd_Motion_Que_HB_M1"
+}

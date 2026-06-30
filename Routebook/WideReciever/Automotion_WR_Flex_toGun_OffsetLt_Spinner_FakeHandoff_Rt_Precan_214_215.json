@@ -1,0 +1,58 @@
+﻿{
+    "routeType":  "AssignRouteType_Block_Run",
+    "exported":  "true",
+    "guid":  "f1804da0-6c33-40aa-afa3-75daab7a4787",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ba2bb5bc-4d74-44b7-8daa-3ef2dfa5457a",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-8-2.218090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-4-4.7516090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2-6.2515090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "31a309fa-a9d6-461c-ae2f-09300817bf78",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "214",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "215"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bfc3706f-8cff-4b74-a19f-9e7ebdcb057a",
+                      "data":  {
+                                   "blockingGap":  "A_GAP_RIGHT",
+                                   "opCodeEX":  "ID_LEADBLOCK",
+                                   "blockingTechnique":  "BLOCKINGTECHNIQUE_INVALID"
+                               },
+                      "type":  "LeadBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "228a70ad-1c2b-4bd7-86ac-f96d5b037949",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/WideReciever/Automotion_WR_Flex_toGun_OffsetLt_Spinner_FakeHandoff_Rt_Precan_214_215"
+}

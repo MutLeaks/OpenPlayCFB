@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Flat_Rt",
+    "exported":  "true",
+    "guid":  "771c3e30-bbf4-4298-84fa-cc3aba56d54e",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "88ccf25d-1e5c-47c9-abe7-f9a150db8dd1",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "8RECEIVER_SUBPOSITION_WRALIGNMENTTECHNIQUE_DIVIDER_RULE",
+                                                              "8RECEIVER_SUBPOSITION_TEALIGNMENTTECHNIQUE_OUTSIDE_5",
+                                                              "7RECEIVER_SUBPOSITION_WR_REDUCED_SPLITALIGNMENTTECHNIQUE_OUTSIDE_4",
+                                                              "9RECEIVER_SUBPOSITION_BACKALIGNMENTTECHNIQUE_SPLIT",
+                                                              "7RECEIVER_SUBPOSITION_WR_TIGHT_OUTSIDEALIGNMENTTECHNIQUE_OUTSIDE_4",
+                                                              "4RECEIVER_SUBPOSITION_TE_TWIN_OUTSIDEALIGNMENTTECHNIQUE_OUTSIDE_4"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cff29bae-cbcc-49b4-be70-a1e6a95b8ce9",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "true",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "flatZone":  "ZONENUM_UNDERNEATHZONE_FIRST",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_FLATZONE"
+                               },
+                      "type":  "FlatZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "75682a73-2aa3-4f43-af57-816774cdf67c",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "true",
+                                   "opCodeEX":  "ID_DEEPZONE",
+                                   "deepZone":  "ZONENUM_DEEP2A"
+                               },
+                      "type":  "DeepZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "174a7e45-1445-4a91-b813-c80d36c61646",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Flat_Cloud_Lt_Disguse_Roll"
+}

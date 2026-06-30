@@ -1,0 +1,69 @@
+﻿{
+    "routeType":  "AssignRouteType_RB_Sweep",
+    "exported":  "true",
+    "guid":  "166ea243-435d-476e-a0b5-c258261312f1",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "31ba3f89-c300-49cf-8fe9-c59b72964dc4",
+                      "data":  {
+                                   "waypoints":  [
+                                                     "-8-2.218090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-4-4.7516090AUTOMOTIONLOCOSTYLE_NORMALtrue",
+                                                     "-2-6.2515090AUTOMOTIONLOCOSTYLE_NORMALtrue"
+                                                 ],
+                                   "shouldStopAtTarget":  "true",
+                                   "automotionOrderPlayer":  "0",
+                                   "startDelay":  "0",
+                                   "useLegacyLocoPathing":  "false",
+                                   "endDelay":  "0",
+                                   "stanceAtTarget":  "StanceType_2pt_HB",
+                                   "opCodeEX":  "ID_AUTOMOTION",
+                                   "startEvent":  "AUTOMOTIONSTARTEVENT_SNAP",
+                                   "automotionOrderTransitID":  "1"
+                               },
+                      "type":  "AutoMotionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "7c9d3121-8641-490e-8928-7ef96c9935c7",
+                      "data":  {
+                                   "opCodeEX":  "ID_CANNEDHANDOFF",
+                                   "handoffAnim":  "242",
+                                   "playerNum":  "HandoffPlayerSlot_O1",
+                                   "flippedHandoffAnim":  "243"
+                               },
+                      "type":  "CannedHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d3359fa5-7505-47c0-b063-48706ec6be5b",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "360",
+                                   "distance":  "3",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "75",
+                                   "opCodeEX":  "ID_RECHANDOFF"
+                               },
+                      "type":  "ReceiveHandoffAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d6f2fcb7-05c9-4b03-99b5-71476669eb6e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RUNEZ"
+                               },
+                      "type":  "RunEndZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "0c0d4989-2053-4e02-a112-d8760026ca95",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/Halfback/WR_Automotion_BehindLT_Flex_SG_H8_Sweep_Behind"
+}

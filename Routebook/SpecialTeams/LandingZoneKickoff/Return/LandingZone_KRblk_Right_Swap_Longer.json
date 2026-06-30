@@ -1,0 +1,53 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Block",
+    "exported":  "true",
+    "guid":  "e3d5558a-6372-4694-a705-6213f95aa7c5",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "ed49fe40-673f-41cf-ae4c-dcacebc4fb58",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "true",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "bad7fbfe-583a-4dc9-a182-575f9a732146",
+                      "data":  {
+                                   "overrideFacingDirection":  "true",
+                                   "direction":  "0",
+                                   "distance":  "6",
+                                   "facingDirectionOverride":  "270",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f91081ad-fcd4-4dda-9c3a-9e46045c164c",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "a937ce6b-ff4f-4623-89ba-b66d61423b67",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Return/LandingZone_KRblk_Right_Swap_Longer"
+}

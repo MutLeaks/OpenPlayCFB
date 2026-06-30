@@ -1,0 +1,66 @@
+﻿{
+    "routeType":  "AssignRouteType_ST_Kickoff_Block",
+    "exported":  "true",
+    "guid":  "087d85f7-c30d-4487-919e-e85c02545a45",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "d5750ae8-9d9f-4a0c-93f4-c16a5e796ee2",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "true",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "6",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "d794e436-2d56-489d-a421-786c1121c62a",
+                      "data":  {
+                                   "overrideFacingDirection":  "true",
+                                   "direction":  "20",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "240",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "33f9c15b-1dd1-42fc-8171-6a5f5fac2d3a",
+                      "data":  {
+                                   "overrideFacingDirection":  "true",
+                                   "direction":  "40",
+                                   "distance":  "2",
+                                   "facingDirectionOverride":  "240",
+                                   "speed":  "70",
+                                   "opCodeEX":  "ID_MOVEDIRDIST"
+                               },
+                      "type":  "MoveDirectionAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "f326088f-6384-4c59-9e98-4a137292815c",
+                      "data":  {
+                                   "receiverBlockType":  "RECEIVERBLOCKTYPE_NORMAL",
+                                   "flags":  "RunBlockFlags_None",
+                                   "time":  "0",
+                                   "slamDuration":  "0",
+                                   "stalkDistance":  "0",
+                                   "opCodeEX":  "ID_RUNBLOCK"
+                               },
+                      "type":  "RunBlockAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "cceccc05-4a3e-4c94-b316-88a1091db582",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/SpecialTeams/LandingZoneKickoff/Return/LandingZone_KRblk_Slide_Right"
+}

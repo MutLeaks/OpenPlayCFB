@@ -1,0 +1,61 @@
+﻿{
+    "routeType":  "AssignRouteType_RR_Whip_In",
+    "exported":  "true",
+    "guid":  "4a8476ba-3c52-410d-b749-d9f4e17795b9",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "060698b5-0749-448f-b3be-33f02314d363",
+                      "data":  {
+                                   "landingZoneKickoffDelay":  "false",
+                                   "opCodeEX":  "ID_DELAY",
+                                   "time":  "0.15",
+                                   "timeNGPM":  "0"
+                               },
+                      "type":  "DelayAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "74bfa938-85e5-4e86-b51a-8fd06bbae314",
+                      "data":  {
+                                   "overrideFacingDirection":  "false",
+                                   "direction":  "54",
+                                   "distance":  "4",
+                                   "facingDirectionOverride":  "0",
+                                   "speed":  "100",
+                                   "opCodeEX":  "ID_RUNROUTE"
+                               },
+                      "type":  "RunRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "c3f9bb04-cc00-4202-bbde-bd266db63f6c",
+                      "data":  {
+                                   "optionRouteInfo":  [
+                                                           "173f8226-832e-417a-8e67-255875c6cca5OptionRouteCoverage_Default",
+                                                           "1a21272b-8677-4987-824d-b65b811318c5141",
+                                                           "289692ea-ad49-47b5-98dd-d464e0247ebeOptionRouteCoverage_ManDeep1"
+                                                       ],
+                                   "opCodeEX":  "ID_OPTIONROUTE"
+                               },
+                      "type":  "OptionRouteAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "ef2010ef-36e2-48d4-8102-4ed1dc5f508e",
+                      "data":  {
+                                   "opCodeEX":  "ID_RECGETOPEN"
+                               },
+                      "type":  "GetOpenAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "e3e1b0a3-18fd-400d-95ab-9b4a38fea461",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/OptionRoute/Option_Angle_InLt_HitchLt_OutRt"
+}

@@ -1,0 +1,46 @@
+﻿{
+    "routeType":  "AssignRouteType_DefZone_Hook_Lt",
+    "exported":  "true",
+    "guid":  "99756713-9549-448f-b9ec-851e1f6a1e58",
+    "steps":  [
+                  {
+                      "exported":  "true",
+                      "guid":  "188c41f6-3eae-4c6b-8769-e85e45488306",
+                      "data":  {
+                                   "position":  "RECEIVER_SUBPOSITION_ANY",
+                                   "opCodeEX":  "ID_DEFALIGNMENT",
+                                   "positionAlignments":  [
+                                                              "0RECEIVER_SUBPOSITION_WR_SLOTALIGNMENTTECHNIQUE_SPLIT",
+                                                              "0RECEIVER_SUBPOSITION_TEALIGNMENTTECHNIQUE_NOALIGN",
+                                                              "0RECEIVER_SUBPOSITION_TE_TWIN_OUTSIDEALIGNMENTTECHNIQUE_NOALIGN",
+                                                              "0RECEIVER_SUBPOSITION_TE_TWIN_INSIDEALIGNMENTTECHNIQUE_NOALIGN"
+                                                          ],
+                                   "alignment":  "0",
+                                   "technique":  "ALIGNMENTTECHNIQUE_NOALIGN"
+                               },
+                      "type":  "DefAlignmentAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "8ed4e046-01ad-46ad-8f8d-2e08842f561e",
+                      "data":  {
+                                   "IsRollCoverageAssignment":  "false",
+                                   "isBracketFallback":  "false",
+                                   "ZoneStrategy":  "ZoneStrategy_Default",
+                                   "IsRollCoverageFallback":  "false",
+                                   "opCodeEX":  "ID_HOOKZONE",
+                                   "hookZone":  "ZONENUM_UNDERNEATHZONE_LAST"
+                               },
+                      "type":  "HookZoneAssignment"
+                  },
+                  {
+                      "exported":  "true",
+                      "guid":  "2b7b4f31-4758-4632-9a38-d0463d82ccfc",
+                      "data":  {
+                                   "opCodeEX":  "ID_NONE"
+                               },
+                      "type":  "NoneAssignment"
+                  }
+              ],
+    "name":  "football/Gameplay/playbooks/PlayLibrary/Assignments/DefenseZone/Profile_Curl_Right_Box"
+}
